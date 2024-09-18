@@ -3912,11 +3912,11 @@ a#reshare {
 .video-label::before {
     content: '';
     display: inline-block;
-    width: 5px;
+    width: 8px;
     height: 100%; /* Full height of the parent element */
     background-color: yellow;
     position: absolute;
-    left: -8px; /* Adjust spacing as needed */
+    left: 0; /* Adjust spacing as needed */
     top: 0;
 }
 
