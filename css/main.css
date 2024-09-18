@@ -3903,11 +3903,21 @@ a#reshare {
 	bottom: 0.6vh;
 	left: 0.5vh;
 	margin: 0px;
-	color: black;
+	color: white;
 	padding: 5px 10px;
-	background: rgba(251, 255, 0, 0.5);
+	background: rgba(0, 0, 0, 0.5);
 	font-size: 1em;
 	pointer-events:none;
+}
+.video-label::before {
+    content: '';
+    display: inline-block;
+    width: 5px;
+    height: 100%; /* Full height of the parent element */
+    background-color: yellow;
+    position: absolute;
+    left: -8px; /* Adjust spacing as needed */
+    top: 0;
 }
 
 .video-label>span:nth-child(2) {
