@@ -3903,9 +3903,9 @@ a#reshare {
 	bottom: 0.6vh;
 	left: 0.5vh;
 	margin: 0px;
-	color: black;
+	color: white;
 	padding: 5px 10px;
-	background: rgba(251, 255, 0, 0.5);
+	background: rgba(0, 0, 0, 0.5);
 	font-size: 1em;
 	pointer-events:none;
 }
