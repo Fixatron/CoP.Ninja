@@ -3914,7 +3914,7 @@ a#reshare {
     display: inline-block;
     width: 8px;
     height: 100%; /* Full height of the parent element */
-    background-color: yellow;
+    background-color: #caa702;
     position: absolute;
     left: 0; /* Adjust spacing as needed */
     top: 0;
