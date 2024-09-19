@@ -2777,7 +2777,9 @@ img {
 	margin: 25vh 0;
 	position: absolute;
 }
-
+.container_holder_video{
+	padding:10px;
+}
 .holder {
 	position: relative;
 	width: 100%;
@@ -2794,7 +2796,7 @@ img {
 	border-width: var(--video-border);
 	border-color: var(--video-border-color);
 	border-style: solid;
-	padding: 10px;
+
 }
 
 video {
