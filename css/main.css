@@ -3900,12 +3900,12 @@ a#reshare {
 
 .video-label {
 	position: absolute;
-	bottom: 0.6vh;
-	left: 0.5vh;
+	bottom: 0.1vh;
+	left: 0.1vh;
 	margin: 0px;
 	color: white;
-	padding: 5px 10px;
-	background: rgba(0, 0, 0, 0.5);
+	padding: 5px 12px;
+	background: rgba(0, 0, 0, 0.75);
 	font-size: 1em;
 	pointer-events:none;
 }
