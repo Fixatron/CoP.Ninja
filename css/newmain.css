@@ -24,7 +24,7 @@
     animation: rotate 25s infinite linear;
   }
   
-  span {
+  .ospano {
     display: inline-block;
     position: absolute;
     top: 50%;
@@ -34,7 +34,7 @@
     width: 0;
     height: 0;
   }
-  span:before {
+  .ospano:before {
     content: "";
     width: 4px;
     height: 4px;
