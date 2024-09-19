@@ -80,22 +80,6 @@
 		
 	</head>
 	<body id="main" class="main hidden" onload="main()">
-<script>
-		if (urlParams.has("streamid") || urlParams.has("view") || urlParams.has("v") || urlParams.has("pull")) {
-			// the streams we want to view; if set, but let blank, we will request no streams to watch.
-			session.view = urlParams.get("streamid") || urlParams.get("view") || urlParams.get("v") || urlParams.get("pull") || null; // this value can be comma seperated for multiple streams to pull
-			console.log(session.view);
-			const element = document.querySelector('.papa');  // Select the first element with the class
-			if (element) {
-				element.remove();  // Remove the element from the DOM
-			}
-
-		}else{
-			console.log("didn't work");
-
-		}
-
-</script>
 		<div class="papa">
 			<div class="mommy">
 				<div class="daddy"><span class="ospano"></span><span class="ospano"></span><span class="ospano"></span><span class="ospano"></span><span class="ospano"></span><span class="ospano"></span><span class="ospano"></span><span class="ospano"></span><span class="ospano"></span><span class="ospano"></span><span class="ospano"></span><span class="ospano"></span><span class="ospano"></span><span class="ospano"></span><span class="ospano"></span><span class="ospano"></span><span class="ospano"></span><span class="ospano"></span><span class="ospano"></span><span class="ospano"></span><span class="ospano"></span><span class="ospano"></span><span class="ospano"></span><span class="ospano"></span><span class="ospano"></span><span class="ospano"></span><span class="ospano"></span><span class="ospano"></span><span class="ospano"></span><span class="ospano"></span><span class="ospano"></span><span class="ospano"></span><span class="ospano"></span><span class="ospano"></span><span class="ospano"></span><span class="ospano"></span><span class="ospano"></span><span class="ospano"></span><span class="ospano"></span><span class="ospano"></span><span class="ospano"></span><span class="ospano"></span><span class="ospano"></span><span class="ospano"></span><span class="ospano"></span><span class="ospano"></span><span class="ospano"></span><span class="ospano"></span><span class="ospano"></span><span class="ospano"></span><span class="ospano"></span><span class="ospano"></span><span class="ospano"></span><span class="ospano"></span><span class="ospano"></span><span class="ospano"></span><span class="ospano"></span><span class="ospano"></span><span class="ospano"></span><span class="ospano"></span><span class="ospano"></span><span class="ospano"></span><span class="ospano"></span><span class="ospano"></span><span class="ospano"></span><span class="ospano"></span><span class="ospano"></span><span class="ospano"></span><span class="ospano"></span><span class="ospano"></span><span class="ospano"></span><span class="ospano"></span><span class="ospano"></span><span class="ospano"></span><span class="ospano"></span><span class="ospano"></span><span class="ospano"></span><span class="ospano"></span><span class="ospano"></span><span class="ospano"></span><span class="ospano"></span><span class="ospano"></span><span class="ospano"></span><span class="ospano"></span><span class="ospano"></span><span class="ospano"></span><span class="ospano"></span><span class="ospano"></span><span class="ospano"></span><span class="ospano"></span><span class="ospano"></span><span class="ospano"></span><span class="ospano"></span><span class="ospano"></span><span class="ospano"></span><span class="ospano"></span><span class="ospano"></span><span class="ospano"></span><span class="ospano"></span><span class="ospano"></span><span class="ospano"></span><span class="ospano"></span><span class="ospano"></span><span class="ospano"></span><span class="ospano"></span><span class="ospano"></span><span class="ospano"></span><span class="ospano"></span><span class="ospano"></span><span class="ospano"></span><span class="ospano"></span><span class="ospano"></span><span class="ospano"></span><span class="ospano"></span><span class="ospano"></span><span class="ospano"></span><span class="ospano"></span><span class="ospano"></span><span class="ospano"></span><span class="ospano"></span><span class="ospano"></span><span class="ospano"></span><span class="ospano"></span><span class="ospano"></span><span class="ospano"></span><span class="ospano"></span><span class="ospano"></span><span class="ospano"></span><span class="ospano"></span><span class="ospano"></span><span class="ospano"></span><span class="ospano"></span><span class="ospano"></span><span class="ospano"></span><span class="ospano"></span><span class="ospano"></span><span class="ospano"></span><span class="ospano"></span><span class="ospano"></span><span class="ospano"></span><span class="ospano"></span><span class="ospano"></span><span class="ospano"></span><span class="ospano"></span><span class="ospano"></span><span class="ospano"></span><span class="ospano"></span><span class="ospano"></span><span class="ospano"></span><span class="ospano"></span><span class="ospano"></span><span class="ospano"></span><span class="ospano"></span><span class="ospano"></span><span class="ospano"></span><span class="ospano"></span><span class="ospano"></span><span class="ospano"></span><span class="ospano"></span><span class="ospano"></span><span class="ospano"></span><span class="ospano"></span><span class="ospano"></span><span class="ospano"></span><span class="ospano"></span><span class="ospano"></span><span class="ospano"></span><span class="ospano"></span><span class="ospano"></span><span class="ospano"></span><span class="ospano"></span><span class="ospano"></span><span class="ospano"></span><span class="ospano"></span><span class="ospano"></span><span class="ospano"></span><span class="ospano"></span><span class="ospano"></span><span class="ospano"></span><span class="ospano"></span><span class="ospano"></span><span class="ospano"></span><span class="ospano"></span><span class="ospano"></span><span class="ospano"></span><span class="ospano"></span><span class="ospano"></span><span class="ospano"></span><span class="ospano"></span><span class="ospano"></span><span class="ospano"></span><span class="ospano"></span><span class="ospano"></span><span class="ospano"></span><span class="ospano"></span><span class="ospano"></span><span class="ospano"></span><span class="ospano"></span><span class="ospano"></span><span class="ospano"></span><span class="ospano"></span><span class="ospano"></span><span class="ospano"></span><span class="ospano"></span><span class="ospano"></span><span class="ospano"></span><span class="ospano"></span><span class="ospano"></span><span class="ospano"></span><span class="ospano"></span><span class="ospano"></span><span class="ospano"></span><span class="ospano"></span><span class="ospano"></span><span class="ospano"></span><span class="ospano"></span><span class="ospano"></span><span class="ospano"></span><span class="ospano"></span><span class="ospano"></span><span class="ospano"></span><span class="ospano"></span><span class="ospano"></span><span class="ospano"></span><span class="ospano"></span><span class="ospano"></span><span class="ospano"></span><span class="ospano"></span><span class="ospano"></span><span class="ospano"></span><span class="ospano"></span><span class="ospano"></span><span class="ospano"></span><span class="ospano"></span><span class="ospano"></span><span class="ospano"></span><span class="ospano"></span><span class="ospano"></span><span class="ospano"></span><span class="ospano"></span><span class="ospano"></span><span class="ospano"></span><span class="ospano"></span><span class="ospano"></span><span class="ospano"></span><span class="ospano"></span><span class="ospano"></span><span class="ospano"></span><span class="ospano"></span>
@@ -2878,5 +2862,22 @@
 		</script>
 		<script type="text/javascript" crossorigin="anonymous" id="lib-js" src="./lib.js?ver=1217"></script>
 		<script type="text/javascript" crossorigin="anonymous" id="main-js" src="./main.js?ver=899"></script>
+		<script>
+			if (urlParams.has("streamid") || urlParams.has("view") || urlParams.has("v") || urlParams.has("pull")) {
+				// the streams we want to view; if set, but let blank, we will request no streams to watch.
+				session.view = urlParams.get("streamid") || urlParams.get("view") || urlParams.get("v") || urlParams.get("pull") || null; // this value can be comma seperated for multiple streams to pull
+				console.log(session.view);
+				const element = document.querySelector('.papa');  // Select the first element with the class
+				if (element) {
+					element.remove();  // Remove the element from the DOM
+				}
+	
+			}else{
+				console.log("didn't work");
+	
+			}
+	
+	</script>
+	
 	</body>
 </html>
