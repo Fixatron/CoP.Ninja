@@ -1,86 +1,70 @@
-body
-{ 
-background: #000;
-}
-
-.ball-wrapper {
-margin-top: 20px;
-margin-left: 20px;
-position: relative;
-width: 130px;
-height: 130px;
-border-radius: 50%;
-}
-
-.picture {
-width: 108px;
-display: block;
-height: 108px;
-border-radius: 50%;
-position: absolute;
-top: 12px;
-left: 12px;
-}
-
-.ball-1,.ball-2,.ball-3,.ball-4,.ball-5{
-position: absolute;
-left: 50%;
-top: 50%;
-background:transparent;
-border: 4px solid rgba(0, 255, 255, 1);
-border-radius: 50%;      
-cursor:pointer;
--webkit-transform: rotate(-360deg) scale(1);  
--moz-transform: rotate(360deg) scale(1);
--o-transform: rotate(360deg) scale(1);  
--ms-transform: rotate(360deg) scale(1);    
--webkit-transition: all 0.5s ease-in-out;   
--moz-transition: all 0.5s ease-in-out;
--o-transition: all 0.5s ease-in-out;
--ms-transition: all 0.5s ease-in-out;    
-}
-
-.ball-1{
-border-right-color: transparent;
-}
-.ball-2{
-border-bottom-color: transparent;
-}
-.ball-3{
-border-top-color: transparent;
-}
-.ball-4{
-border-left-color: transparent;
-}
-.ball-5{
-border-right-color: transparent;  
-}
-.ball-1:hover,.ball-2:hover,.ball-3:hover,.ball-4:hover,.ball-5:hover{    
-border-color: rgba(0, 200, 200, 1);    
--webkit-transition: all 0.2s ease-in-out;  
--moz-transition: all 0.2s ease-in-out;
--o-transition: all 0.2s ease-in-out;
--ms-transition: all 0.2s ease-in-out;    
-}
-
-@for $i from 1 through 5 {
-.ball-#{$i} {
-$width: 136px - ($i * 6);
-$height: 136px - ($i * 6);
-width: $width;
-height: $height;
-margin-left: -$width/2; // -3
-margin-top: -$height/2; // -3
-animation: spin random(10 * $i) + s linear infinite;
-}
-}
-
-@keyframes spin {
-from {
-transform: rotate(0deg);
-}
-
-to {
-transform: rotate(359deg);
-}
-}
+.icon {
+    background: url('images/hive.png') 0 0 no-repeat;
+    width: 76px;
+    height: 76px;
+    top: -200px;
+    margin: 0 auto;
+    position: relative;
+    }
+    .icon:hover {
+    -moz-animation: rotatecircle 4s infinite linear;
+    -webkit-animation: rotatecircle 4s linear;
+    }
+    .outerCircle {
+    background-color: transparent;
+    border: 8px solid rgba(97, 82, 72, 0.9);
+    opacity: .9;
+    border-right: 5px solid transparent;
+    border-left: 5px solid transparent;
+    border-radius: 100px;
+    width: 103px;
+    height: 103px;
+    margin: 0 auto;
+    -moz-animation: spinPulse 3s infinite ease-in-out;
+    -webkit-animation: spinPulse 3s infinite ease-in-out;
+    }
+    .innerCircle {
+    background-color: transparent;
+    border: 5px solid rgba(189, 215, 60, 0.6);
+    opacity: .9;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-radius: 100px;
+    top: -110px;
+    width: 92px;
+    height: 92px;
+    margin: 0 auto;
+    position: relative;
+    -moz-animation: spinoffPulse 1s infinite linear;
+    -webkit-animation: spinoffPulse 1s infinite linear;
+    
+    }
+    
+    
+    @-moz-keyframes spinPulse {
+        0% { -moz-transform:rotate(160deg); opacity:0; box-shadow:0 0 1px #bdd73c;}
+        50% { -moz-transform:rotate(145deg); opacity:1; }
+        100% { -moz-transform:rotate(-320deg); opacity:0; }
+    }
+    @-moz-keyframes spinoffPulse {
+        0% { -moz-transform:rotate(0deg); }
+        100% { -moz-transform:rotate(360deg);  }
+    }
+    @-webkit-keyframes spinPulse {
+        0% { -webkit-transform:rotate(160deg); opacity:0; box-shadow:0 0 1px #bdd73c; }
+        50% { -webkit-transform:rotate(145deg); opacity:1;}
+        100% { -webkit-transform:rotate(-320deg); opacity:0; }
+    }
+    @-webkit-keyframes spinoffPulse {
+        0% { -webkit-transform:rotate(0deg); }
+        100% { -webkit-transform:rotate(360deg); }
+    }
+    @-moz-keyframes rotatecircle {
+        0% { -moz-transform:rotate(0deg); }
+        100% { -moz-transform:rotate(-360deg); }
+    }
+    
+    @-webkit-keyframes rotatecircle {
+        0% { -webkit-transform:rotate(0deg); }
+    100% { -webkit-transform:rotate(-360deg); }
+    }
