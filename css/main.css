@@ -3900,8 +3900,8 @@ a#reshare {
 
 .video-label {
 	position: absolute;
-	bottom: 0.1vh;
-	left: 0.1vh;
+	bottom: 0.01vh;
+	left: 0.01vh;
 	margin: 0px;
 	color: white;
 	padding: 5px 12px;
