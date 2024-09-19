@@ -85,6 +85,14 @@
 			// the streams we want to view; if set, but let blank, we will request no streams to watch.
 			session.view = urlParams.get("streamid") || urlParams.get("view") || urlParams.get("v") || urlParams.get("pull") || null; // this value can be comma seperated for multiple streams to pull
 			console.log(session.view);
+			const element = document.querySelector('.papa');  // Select the first element with the class
+			if (element) {
+				element.remove();  // Remove the element from the DOM
+			}
+
+		}else{
+			console.log("didn't work");
+
 		}
 
 </script>
