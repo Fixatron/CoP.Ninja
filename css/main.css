@@ -3904,7 +3904,7 @@ a#reshare {
 	left: 0.01vh;
 	margin: 0px;
 	color: white;
-	padding: 5px 12px;
+	padding: 6px 12px;
 	background: rgba(0, 0, 0, 0.75);
 	font-size: 1em;
 	pointer-events:none;
@@ -3914,7 +3914,7 @@ a#reshare {
     display: inline-block;
     width: 8px;
     height: 100%; /* Full height of the parent element */
-    background-color: #caa702;
+    background-color: #e6e20a;
     position: absolute;
     left: 0; /* Adjust spacing as needed */
     top: 0;
