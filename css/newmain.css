@@ -6,8 +6,7 @@
     overflow: hidden;
     justify-content: center;
     align-items: center;
-    position:absolute;
-    z-index:-1;
+    z-index: -1;
   }
   
   .mommy {
@@ -21,7 +20,7 @@
     width: 500px;
     height: 500px;
     transform-style: preserve-3d;
-    animation: rotate 25s infinite linear;
+    animation: rotate 120s infinite linear;
   }
   
   .ospano {
@@ -45,2007 +44,2207 @@
     background: currentColor;
     color: inherit;
     border-radius: 50%;
-    animation: invertRotate 25s infinite linear, scale 2s infinite linear;
+    animation: invertRotate 120s infinite linear, scale 20s infinite linear;
     box-shadow: 0 0 10px currentColor;
   }
   
   .mommy span:nth-child(1) {
-    transform: translate3d(-0.71376px, 3.05935px, 249.98026px);
+    transform: translate3d(-0.18712px, 2.84979px, 249.98369px);
     color: #000202;
   }
   .mommy span:nth-child(1):before {
-    animation-delay: 0s, -0.008s;
+    animation-delay: 0s, -0.00727s;
   }
   
   .mommy span:nth-child(2) {
-    transform: translate3d(-5.63391px, -2.78015px, 249.92105px);
+    transform: translate3d(-5.66245px, -0.74683px, 249.93475px);
     color: #000404;
   }
   .mommy span:nth-child(2):before {
-    animation-delay: 0s, -0.016s;
+    animation-delay: 0s, -0.01455s;
   }
   
   .mommy span:nth-child(3) {
-    transform: translate3d(5.98042px, -7.28141px, 249.82237px);
-    color: #000606;
+    transform: translate3d(1.67416px, -8.40111px, 249.85319px);
+    color: #000506;
   }
   .mommy span:nth-child(3):before {
-    animation-delay: 0s, -0.024s;
+    animation-delay: 0s, -0.02182s;
   }
   
   .mommy span:nth-child(4) {
-    transform: translate3d(7.64155px, 9.96933px, 249.68424px);
-    color: #000808;
+    transform: translate3d(11.02948px, 2.9609px, 249.73903px);
+    color: #000707;
   }
   .mommy span:nth-child(4):before {
-    animation-delay: 0s, -0.032s;
+    animation-delay: 0s, -0.02909s;
   }
   
   .mommy span:nth-child(5) {
-    transform: translate3d(-14.30259px, 6.46928px, 249.50668px);
-    color: #000a0a;
+    transform: translate3d(-4.59559px, 13.51208px, 249.59228px);
+    color: #000909;
   }
   .mommy span:nth-child(5):before {
-    animation-delay: 0s, -0.04s;
+    animation-delay: 0s, -0.03636s;
   }
   
   .mommy span:nth-child(6) {
-    transform: translate3d(-3.65956px, -18.4727px, 249.28973px);
-    color: #000c0c;
+    transform: translate3d(-15.81455px, -6.56366px, 249.41295px);
+    color: #000b0b;
   }
   .mommy span:nth-child(6):before {
-    animation-delay: 0s, -0.048s;
+    animation-delay: 0s, -0.04364s;
   }
   
   .mommy span:nth-child(7) {
-    transform: translate3d(21.95038px, 0.73846px, 249.0334px);
-    color: #000e0e;
+    transform: translate3d(8.84752px, -17.90387px, 249.20107px);
+    color: #000c0d;
   }
   .mommy span:nth-child(7):before {
-    animation-delay: 0s, -0.056s;
+    animation-delay: 0s, -0.05091s;
   }
   
   .mommy span:nth-child(8) {
-    transform: translate3d(-6.51893px, 24.22877px, 248.73775px);
-    color: #001010;
+    transform: translate3d(19.74864px, 11.42664px, 248.95667px);
+    color: #000e0f;
   }
   .mommy span:nth-child(8):before {
-    animation-delay: 0s, -0.064s;
+    animation-delay: 0s, -0.05818s;
   }
   
   .mommy span:nth-child(9) {
-    transform: translate3d(-24.86713px, -13.32896px, 248.40283px);
-    color: #001112;
+    transform: translate3d(-14.27774px, 21.31933px, 248.67978px);
+    color: #001011;
   }
   .mommy span:nth-child(9):before {
-    animation-delay: 0s, -0.072s;
+    animation-delay: 0s, -0.06545s;
   }
   
   .mommy span:nth-child(10) {
-    transform: translate3d(20.68991px, -23.53092px, 248.02868px);
-    color: #001314;
+    transform: translate3d(-22.58847px, -17.37494px, 248.37043px);
+    color: #001213;
   }
   .mommy span:nth-child(10):before {
-    animation-delay: 0s, -0.08s;
+    animation-delay: 0s, -0.07273s;
   }
   
   .mommy span:nth-child(11) {
-    transform: translate3d(20.02513px, 28.02909px, 247.61536px);
-    color: #001516;
+    transform: translate3d(20.68991px, -23.53092px, 248.02868px);
+    color: #001314;
   }
   .mommy span:nth-child(11):before {
-    animation-delay: 0s, -0.088s;
+    animation-delay: 0s, -0.08s;
   }
   
   .mommy span:nth-child(12) {
-    transform: translate3d(-34.71983px, 14.31839px, 247.16294px);
-    color: #001718;
+    transform: translate3d(24.124px, 24.1921px, 247.65455px);
+    color: #001516;
   }
   .mommy span:nth-child(12):before {
-    animation-delay: 0s, -0.096s;
+    animation-delay: 0s, -0.08727s;
   }
   
   .mommy span:nth-child(13) {
-    transform: translate3d(-6.55582px, -40.12729px, 246.67149px);
-    color: #00181b;
+    transform: translate3d(-27.84896px, 24.34775px, 247.2481px);
+    color: #001618;
   }
   .mommy span:nth-child(13):before {
-    animation-delay: 0s, -0.104s;
+    animation-delay: 0s, -0.09455s;
   }
   
   .mommy span:nth-child(14) {
-    transform: translate3d(43.65683px, 2.94074px, 246.14108px);
-    color: #001a1d;
+    transform: translate3d(-24.18505px, -31.62612px, 246.80938px);
+    color: #00181a;
   }
   .mommy span:nth-child(14):before {
-    animation-delay: 0s, -0.112s;
+    animation-delay: 0s, -0.10182s;
   }
   
   .mommy span:nth-child(15) {
-    transform: translate3d(-13.68534px, 44.80174px, 245.57181px);
-    color: #001c1f;
+    transform: translate3d(35.48768px, -23.62177px, 246.33846px);
+    color: #001a1c;
   }
   .mommy span:nth-child(15):before {
-    animation-delay: 0s, -0.12s;
+    animation-delay: 0s, -0.10909s;
   }
   
   .mommy span:nth-child(16) {
-    transform: translate3d(-43.18678px, -25.05308px, 244.96376px);
-    color: #001e21;
+    transform: translate3d(22.64693px, 39.39645px, 245.83539px);
+    color: #001b1e;
   }
   .mommy span:nth-child(16):before {
-    animation-delay: 0s, -0.128s;
+    animation-delay: 0s, -0.11636s;
   }
   
   .mommy span:nth-child(17) {
-    transform: translate3d(36.31649px, -38.60442px, 244.31703px);
-    color: #001f23;
+    transform: translate3d(-43.31418px, 21.25277px, 245.30023px);
+    color: #001d20;
   }
   .mommy span:nth-child(17):before {
-    animation-delay: 0s, -0.136s;
+    animation-delay: 0s, -0.12364s;
   }
   
   .mommy span:nth-child(18) {
-    transform: translate3d(31.04103px, 46.6909px, 243.63172px);
-    color: #002125;
+    transform: translate3d(-19.43484px, -47.20188px, 244.73306px);
+    color: #001e21;
   }
   .mommy span:nth-child(18):before {
-    animation-delay: 0s, -0.144s;
+    animation-delay: 0s, -0.13091s;
   }
   
   .mommy span:nth-child(19) {
-    transform: translate3d(-55.38617px, 20.69079px, 242.90793px);
-    color: #002227;
+    transform: translate3d(51.02006px, -17.19209px, 244.13395px);
+    color: #002023;
   }
   .mommy span:nth-child(19):before {
-    animation-delay: 0s, -0.152s;
+    animation-delay: 0s, -0.13818s;
   }
   
   .mommy span:nth-child(20) {
-    transform: translate3d(-7.95582px, -61.66134px, 242.14579px);
-    color: #002429;
+    transform: translate3d(14.52689px, 54.72905px, 243.50298px);
+    color: #002125;
   }
   .mommy span:nth-child(20):before {
-    animation-delay: 0s, -0.16s;
+    animation-delay: 0s, -0.14545s;
   }
   
   .mommy span:nth-child(21) {
-    transform: translate3d(64.87879px, 6.5678px, 241.34541px);
-    color: #00252b;
+    transform: translate3d(-58.28922px, 11.44505px, 242.84023px);
+    color: #002227;
   }
   .mommy span:nth-child(21):before {
-    animation-delay: 0s, -0.168s;
+    animation-delay: 0s, -0.15273s;
   }
   
   .mommy span:nth-child(22) {
-    transform: translate3d(-22.11797px, 64.55399px, 240.50692px);
-    color: #00272d;
+    transform: translate3d(-7.95582px, -61.66134px, 242.14579px);
+    color: #002429;
   }
   .mommy span:nth-child(22):before {
-    animation-delay: 0s, -0.176s;
+    animation-delay: 0s, -0.16s;
   }
   
   .mommy span:nth-child(23) {
-    transform: translate3d(-60.39766px, -37.80703px, 239.63045px);
-    color: #00282f;
+    transform: translate3d(64.80683px, -4.07186px, 241.41975px);
+    color: #00252b;
   }
   .mommy span:nth-child(23):before {
-    animation-delay: 0s, -0.184s;
+    animation-delay: 0s, -0.16727s;
   }
   
   .mommy span:nth-child(24) {
-    transform: translate3d(52.67261px, -52.34694px, 238.71614px);
-    color: #002a31;
+    transform: translate3d(-0.19082px, 67.68803px, 240.6622px);
+    color: #00272d;
   }
   .mommy span:nth-child(24):before {
-    animation-delay: 0s, -0.192s;
+    animation-delay: 0s, -0.17455s;
   }
   
   .mommy span:nth-child(25) {
-    transform: translate3d(40.58336px, 65.73591px, 237.76413px);
-    color: #002b33;
+    transform: translate3d(-70.26851px, -4.81292px, 239.87324px);
+    color: #00282e;
   }
   .mommy span:nth-child(25):before {
-    animation-delay: 0s, -0.2s;
+    animation-delay: 0s, -0.18182s;
   }
   
   .mommy span:nth-child(26) {
-    transform: translate3d(-76.06401px, 25.5356px, 236.77458px);
-    color: #002d35;
+    transform: translate3d(9.77195px, -72.51331px, 239.05298px);
+    color: #002930;
   }
   .mommy span:nth-child(26):before {
-    animation-delay: 0s, -0.208s;
+    animation-delay: 0s, -0.18909s;
   }
   
   .mommy span:nth-child(27) {
-    transform: translate3d(-7.86658px, -82.83218px, 235.74763px);
-    color: #002e37;
+    transform: translate3d(74.38926px, 15.04236px, 238.20152px);
+    color: #002b32;
   }
   .mommy span:nth-child(27):before {
-    animation-delay: 0s, -0.216s;
+    animation-delay: 0s, -0.19636s;
   }
   
   .mommy span:nth-child(28) {
-    transform: translate3d(85.38237px, 11.55521px, 234.68346px);
-    color: #003039;
+    transform: translate3d(-20.59567px, 75.86515px, 237.31898px);
+    color: #002c34;
   }
   .mommy span:nth-child(28):before {
-    animation-delay: 0s, -0.224s;
+    animation-delay: 0s, -0.20364s;
   }
   
   .mommy span:nth-child(29) {
-    transform: translate3d(-31.69878px, 83.27381px, 233.58224px);
-    color: #00313b;
+    transform: translate3d(-76.91205px, -26.40065px, 236.40546px);
+    color: #002d36;
   }
   .mommy span:nth-child(29):before {
-    animation-delay: 0s, -0.232s;
+    animation-delay: 0s, -0.21091s;
   }
   
   .mommy span:nth-child(30) {
-    transform: translate3d(-76.32233px, -51.42599px, 232.44412px);
-    color: #00323d;
+    transform: translate3d(32.42345px, -77.50351px, 235.46109px);
+    color: #002f38;
   }
   .mommy span:nth-child(30):before {
-    animation-delay: 0s, -0.24s;
+    animation-delay: 0s, -0.21818s;
   }
   
   .mommy span:nth-child(31) {
-    transform: translate3d(69.55619px, -64.62543px, 231.2693px);
-    color: #00333f;
+    transform: translate3d(77.61577px, 38.62785px, 234.48599px);
+    color: #003039;
   }
   .mommy span:nth-child(31):before {
-    animation-delay: 0s, -0.248s;
+    animation-delay: 0s, -0.22545s;
   }
   
   .mommy span:nth-child(32) {
-    transform: translate3d(48.57094px, 84.93644px, 230.05796px);
-    color: #003541;
+    transform: translate3d(-44.97548px, 77.22797px, 233.48029px);
+    color: #00313b;
   }
   .mommy span:nth-child(32):before {
-    animation-delay: 0s, -0.256s;
+    animation-delay: 0s, -0.23273s;
   }
   
   .mommy span:nth-child(33) {
-    transform: translate3d(-96.51315px, 28.82813px, 228.81029px);
-    color: #003643;
+    transform: translate3d(-76.32233px, -51.42599px, 232.44412px);
+    color: #00323d;
   }
   .mommy span:nth-child(33):before {
-    animation-delay: 0s, -0.264s;
+    animation-delay: 0s, -0.24s;
   }
   
   .mommy span:nth-child(34) {
-    transform: translate3d(-6.32118px, -103.40086px, 227.52649px);
-    color: #003745;
+    transform: translate3d(57.93737px, -74.88431px, 231.37762px);
+    color: #00333f;
   }
   .mommy span:nth-child(34):before {
-    animation-delay: 0s, -0.272s;
+    animation-delay: 0s, -0.24727s;
   }
   
   .mommy span:nth-child(35) {
-    transform: translate3d(104.94359px, 17.81415px, 226.20676px);
-    color: #003847;
+    transform: translate3d(72.90277px, 64.46617px, 230.28091px);
+    color: #003541;
   }
   .mommy span:nth-child(35):before {
-    animation-delay: 0s, -0.28s;
+    animation-delay: 0s, -0.25455s;
   }
   
   .mommy span:nth-child(36) {
-    transform: translate3d(-42.28841px, 100.76496px, 224.85131px);
-    color: #003a49;
+    transform: translate3d(-70.96776px, 70.37009px, 229.15416px);
+    color: #003643;
   }
   .mommy span:nth-child(36):before {
-    animation-delay: 0s, -0.288s;
+    animation-delay: 0s, -0.26182s;
   }
   
   .mommy span:nth-child(37) {
-    transform: translate3d(-90.80351px, -65.72816px, 223.46036px);
-    color: #003b4b;
+    transform: translate3d(-67.28223px, -77.39666px, 227.9975px);
+    color: #003745;
   }
   .mommy span:nth-child(37):before {
-    animation-delay: 0s, -0.296s;
+    animation-delay: 0s, -0.26909s;
   }
   
   .mommy span:nth-child(38) {
-    transform: translate3d(86.75352px, -75.33047px, 222.03411px);
-    color: #003c4e;
+    transform: translate3d(83.70679px, -63.63888px, 226.81108px);
+    color: #003846;
   }
   .mommy span:nth-child(38):before {
-    animation-delay: 0s, -0.304s;
+    animation-delay: 0s, -0.27636s;
   }
   
   .mommy span:nth-child(39) {
-    transform: translate3d(54.9484px, 104.05916px, 220.57281px);
-    color: #003d50;
+    transform: translate3d(59.44346px, 89.85177px, 225.59506px);
+    color: #003948;
   }
   .mommy span:nth-child(39):before {
-    animation-delay: 0s, -0.312s;
+    animation-delay: 0s, -0.28364s;
   }
   
   .mommy span:nth-child(40) {
-    transform: translate3d(-116.49413px, 30.57008px, 219.07667px);
-    color: #003e52;
+    transform: translate3d(-95.78525px, 54.7032px, 224.34961px);
+    color: #003a4a;
   }
   .mommy span:nth-child(40):before {
-    animation-delay: 0s, -0.32s;
+    animation-delay: 0s, -0.29091s;
   }
   
   .mommy span:nth-child(41) {
-    transform: translate3d(-3.37813px, -123.13551px, 217.54594px);
-    color: #003f54;
+    transform: translate3d(-49.42908px, -101.46117px, 223.07487px);
+    color: #003b4c;
   }
   .mommy span:nth-child(41):before {
-    animation-delay: 0s, -0.328s;
+    animation-delay: 0s, -0.29818s;
   }
   
   .mommy span:nth-child(42) {
-    transform: translate3d(123.35144px, 25.23277px, 215.98085px);
-    color: #004056;
+    transform: translate3d(106.83409px, -43.6359px, 221.77102px);
+    color: #003c4e;
   }
   .mommy span:nth-child(42):before {
-    animation-delay: 0s, -0.336s;
+    animation-delay: 0s, -0.30545s;
   }
   
   .mommy span:nth-child(43) {
-    transform: translate3d(-53.72824px, 116.84938px, 214.38166px);
-    color: #004158;
+    transform: translate3d(37.34217px, 111.85951px, 220.43823px);
+    color: #003d50;
   }
   .mommy span:nth-child(43):before {
-    animation-delay: 0s, -0.344s;
+    animation-delay: 0s, -0.31273s;
   }
   
   .mommy span:nth-child(44) {
-    transform: translate3d(-103.70618px, -80.5174px, 212.74862px);
-    color: #00425a;
+    transform: translate3d(-116.49413px, 30.57008px, 219.07667px);
+    color: #003e52;
   }
   .mommy span:nth-child(44):before {
-    animation-delay: 0s, -0.352s;
+    animation-delay: 0s, -0.32s;
   }
   
   .mommy span:nth-child(45) {
-    transform: translate3d(104.04229px, -84.37772px, 211.08198px);
-    color: #00435c;
+    transform: translate3d(-23.34543px, -120.69619px, 217.68652px);
+    color: #003f53;
   }
   .mommy span:nth-child(45):before {
-    animation-delay: 0s, -0.36s;
+    animation-delay: 0s, -0.32727s;
   }
   
   .mommy span:nth-child(46) {
-    transform: translate3d(59.68679px, 122.86847px, 209.38201px);
-    color: #00445e;
+    transform: translate3d(124.42572px, -15.69748px, 216.26796px);
+    color: #004055;
   }
   .mommy span:nth-child(46):before {
-    animation-delay: 0s, -0.368s;
+    animation-delay: 0s, -0.33455s;
   }
   
   .mommy span:nth-child(47) {
-    transform: translate3d(-135.77157px, 30.78937px, 207.64897px);
-    color: #004560;
+    transform: translate3d(7.65881px, 127.64484px, 214.82117px);
+    color: #004157;
   }
   .mommy span:nth-child(47):before {
-    animation-delay: 0s, -0.376s;
+    animation-delay: 0s, -0.34182s;
   }
   
   .mommy span:nth-child(48) {
-    transform: translate3d(0.87955px, -141.81451px, 205.88315px);
-    color: #004662;
+    transform: translate3d(-130.31804px, -0.73477px, 213.34636px);
+    color: #004259;
   }
   .mommy span:nth-child(48):before {
-    animation-delay: 0s, -0.384s;
+    animation-delay: 0s, -0.34909s;
   }
   
   .mommy span:nth-child(49) {
-    transform: translate3d(140.41078px, 33.67791px, 204.08481px);
-    color: #004764;
+    transform: translate3d(9.44446px, -132.41243px, 211.84369px);
+    color: #00435b;
   }
   .mommy span:nth-child(49):before {
-    animation-delay: 0s, -0.392s;
+    animation-delay: 0s, -0.35636s;
   }
   
   .mommy span:nth-child(50) {
-    transform: translate3d(-65.84277px, 131.36951px, 202.25425px);
-    color: #004766;
+    transform: translate3d(133.89797px, 18.42866px, 210.31338px);
+    color: #00435d;
   }
   .mommy span:nth-child(50):before {
-    animation-delay: 0s, -0.4s;
+    animation-delay: 0s, -0.36364s;
   }
   
   .mommy span:nth-child(51) {
-    transform: translate3d(-114.91932px, -95.58607px, 200.39175px);
-    color: #004868;
+    transform: translate3d(-27.64315px, 134.74771px, 208.75563px);
+    color: #00445f;
   }
   .mommy span:nth-child(51):before {
-    animation-delay: 0s, -0.408s;
+    animation-delay: 0s, -0.37091s;
   }
   
   .mommy span:nth-child(52) {
-    transform: translate3d(121.19479px, -91.70891px, 198.4976px);
-    color: #00496a;
+    transform: translate3d(-134.93802px, -37.04138px, 207.17063px);
+    color: #004560;
   }
   .mommy span:nth-child(52):before {
-    animation-delay: 0s, -0.416s;
+    animation-delay: 0s, -0.37818s;
   }
   
   .mommy span:nth-child(53) {
-    transform: translate3d(62.78376px, 141.12975px, 196.57211px);
-    color: #004a6c;
+    transform: translate3d(46.57465px, -134.44876px, 205.55859px);
+    color: #004662;
   }
   .mommy span:nth-child(53):before {
-    animation-delay: 0s, -0.424s;
+    animation-delay: 0s, -0.38545s;
   }
   
   .mommy span:nth-child(54) {
-    transform: translate3d(-154.11747px, 29.53953px, 194.61558px);
-    color: #004a6e;
+    transform: translate3d(133.26347px, 56.19247px, 203.91973px);
+    color: #004764;
   }
   .mommy span:nth-child(54):before {
-    animation-delay: 0s, -0.432s;
+    animation-delay: 0s, -0.39273s;
   }
   
   .mommy span:nth-child(55) {
-    transform: translate3d(6.3457px, -159.2296px, 192.62831px);
-    color: #004b70;
+    transform: translate3d(-65.84277px, 131.36951px, 202.25425px);
+    color: #004766;
   }
   .mommy span:nth-child(55):before {
-    animation-delay: 0s, -0.44s;
+    animation-delay: 0s, -0.4s;
   }
   
   .mommy span:nth-child(56) {
-    transform: translate3d(155.94499px, 42.99709px, 190.61063px);
-    color: #004c72;
+    transform: translate3d(-128.75823px, -75.4722px, 200.56238px);
+    color: #004868;
   }
   .mommy span:nth-child(56):before {
-    animation-delay: 0s, -0.448s;
+    animation-delay: 0s, -0.40727s;
   }
   
   .mommy span:nth-child(57) {
-    transform: translate3d(-78.44216px, 144.19043px, 188.56285px);
-    color: #004d74;
+    transform: translate3d(85.02647px, -125.425px, 198.84433px);
+    color: #00496a;
   }
   .mommy span:nth-child(57):before {
-    animation-delay: 0s, -0.456s;
+    animation-delay: 0s, -0.41455s;
   }
   
   .mommy span:nth-child(58) {
-    transform: translate3d(-124.35732px, -110.71808px, 186.48529px);
-    color: #004d76;
+    transform: translate3d(121.3694px, 94.45066px, 197.10033px);
+    color: #004a6c;
   }
   .mommy span:nth-child(58):before {
-    animation-delay: 0s, -0.464s;
+    animation-delay: 0s, -0.42182s;
   }
   
   .mommy span:nth-child(59) {
-    transform: translate3d(137.9812px, -97.29254px, 184.37828px);
-    color: #004e78;
+    transform: translate3d(-103.6895px, 116.59519px, 195.33061px);
+    color: #004a6d;
   }
   .mommy span:nth-child(59):before {
-    animation-delay: 0s, -0.472s;
+    animation-delay: 0s, -0.42909s;
   }
   
   .mommy span:nth-child(60) {
-    transform: translate3d(64.2635px, 158.61273px, 182.24216px);
-    color: #004e7a;
+    transform: translate3d(-111.11042px, -112.68772px, 193.5354px);
+    color: #004b6f;
   }
   .mommy span:nth-child(60):before {
-    animation-delay: 0s, -0.48s;
+    animation-delay: 0s, -0.43636s;
   }
   
   .mommy span:nth-child(61) {
-    transform: translate3d(-171.31443px, 26.89884px, 180.07726px);
-    color: #004f7c;
+    transform: translate3d(121.3904px, -104.92738px, 191.71493px);
+    color: #004b71;
   }
   .mommy span:nth-child(61):before {
-    animation-delay: 0s, -0.488s;
+    animation-delay: 0s, -0.44364s;
   }
   
   .mommy span:nth-child(62) {
-    transform: translate3d(12.8927px, -175.18873px, 177.88392px);
-    color: #004f7e;
+    transform: translate3d(98.06262px, 129.74327px, 189.86945px);
+    color: #004c73;
   }
   .mommy span:nth-child(62):before {
-    animation-delay: 0s, -0.496s;
+    animation-delay: 0s, -0.45091s;
   }
   
   .mommy span:nth-child(63) {
-    transform: translate3d(169.79833px, 53.0209px, 175.66249px);
-    color: #005081;
+    transform: translate3d(-137.69305px, 90.53691px, 187.99918px);
+    color: #004d75;
   }
   .mommy span:nth-child(63):before {
-    animation-delay: 0s, -0.504s;
+    animation-delay: 0s, -0.45818s;
   }
   
   .mommy span:nth-child(64) {
-    transform: translate3d(-91.32516px, 155.20159px, 173.41333px);
-    color: #005083;
+    transform: translate3d(-82.37518px, -145.18778px, 186.10437px);
+    color: #004d77;
   }
   .mommy span:nth-child(64):before {
-    animation-delay: 0s, -0.512s;
+    animation-delay: 0s, -0.46545s;
   }
   
   .mommy span:nth-child(65) {
-    transform: translate3d(-131.96103px, -125.69204px, 171.13678px);
-    color: #005185;
+    transform: translate3d(152.17713px, -73.6064px, 184.18528px);
+    color: #004e79;
   }
   .mommy span:nth-child(65):before {
-    animation-delay: 0s, -0.52s;
+    animation-delay: 0s, -0.47273s;
   }
   
   .mommy span:nth-child(66) {
-    transform: translate3d(154.1729px, -101.12402px, 168.8332px);
-    color: #005187;
+    transform: translate3d(64.2635px, 158.61273px, 182.24216px);
+    color: #004e7a;
   }
   .mommy span:nth-child(66):before {
-    animation-delay: 0s, -0.528s;
+    animation-delay: 0s, -0.48s;
   }
   
   .mommy span:nth-child(67) {
-    transform: translate3d(64.17608px, 175.09481px, 166.50297px);
-    color: #005289;
+    transform: translate3d(-164.44848px, 54.38321px, 180.27525px);
+    color: #004f7c;
   }
   .mommy span:nth-child(67):before {
-    animation-delay: 0s, -0.536s;
+    animation-delay: 0s, -0.48727s;
   }
   
   .mommy span:nth-child(68) {
-    transform: translate3d(-187.15869px, 22.96888px, 164.14644px);
-    color: #00528b;
+    transform: translate3d(-44.00591px, -169.64082px, 178.28481px);
+    color: #004f7e;
   }
   .mommy span:nth-child(68):before {
-    animation-delay: 0s, -0.544s;
+    animation-delay: 0s, -0.49455s;
   }
   
   .mommy span:nth-child(69) {
-    transform: translate3d(20.37353px, -189.51868px, 161.76399px);
-    color: #00528d;
+    transform: translate3d(174.14905px, -33.17542px, 176.2711px);
+    color: #005080;
   }
   .mommy span:nth-child(69):before {
-    animation-delay: 0s, -0.552s;
+    animation-delay: 0s, -0.50182s;
   }
   
   .mommy span:nth-child(70) {
-    transform: translate3d(181.83807px, 63.56558px, 159.356px);
-    color: #00538f;
+    transform: translate3d(21.93882px, 177.93556px, 174.23439px);
+    color: #005082;
   }
   .mommy span:nth-child(70):before {
-    animation-delay: 0s, -0.56s;
+    animation-delay: 0s, -0.50909s;
   }
   
   .mommy span:nth-child(71) {
-    transform: translate3d(-104.28202px, 164.31823px, 156.92284px);
-    color: #005391;
+    transform: translate3d(-180.96614px, 10.34623px, 172.17494px);
+    color: #005184;
   }
   .mommy span:nth-child(71):before {
-    animation-delay: 0s, -0.568s;
+    animation-delay: 0s, -0.51636s;
   }
   
   .mommy span:nth-child(72) {
-    transform: translate3d(-137.69838px, -140.28454px, 154.4649px);
-    color: #005393;
+    transform: translate3d(1.5495px, -183.21016px, 170.09303px);
+    color: #005186;
   }
   .mommy span:nth-child(72):before {
-    animation-delay: 0s, -0.576s;
+    animation-delay: 0s, -0.52364s;
   }
   
   .mommy span:nth-child(73) {
-    transform: translate3d(169.54577px, -103.22562px, 151.98257px);
-    color: #005495;
+    transform: translate3d(184.64081px, 13.69299px, 167.98891px);
+    color: #005187;
   }
   .mommy span:nth-child(73):before {
-    animation-delay: 0s, -0.584s;
+    animation-delay: 0s, -0.53091s;
   }
   
   .mommy span:nth-child(74) {
-    transform: translate3d(62.59655px, 190.36419px, 149.47625px);
-    color: #005497;
+    transform: translate3d(-26.02663px, 185.23532px, 165.86287px);
+    color: #005289;
   }
   .mommy span:nth-child(74):before {
-    animation-delay: 0s, -0.592s;
+    animation-delay: 0s, -0.53818s;
   }
   
   .mommy span:nth-child(75) {
-    transform: translate3d(-201.463px, 17.87294px, 146.94631px);
-    color: #005499;
+    transform: translate3d(-184.9751px, -38.4909px, 163.71518px);
+    color: #00528b;
   }
   .mommy span:nth-child(75):before {
-    animation-delay: 0s, -0.6s;
+    animation-delay: 0s, -0.54545s;
   }
   
   .mommy span:nth-child(76) {
-    transform: translate3d(28.62404px, -202.0675px, 144.39318px);
-    color: #00549b;
+    transform: translate3d(51.02469px, -183.84594px, 161.54613px);
+    color: #00538d;
   }
   .mommy span:nth-child(76):before {
-    animation-delay: 0s, -0.608s;
+    animation-delay: 0s, -0.55273s;
   }
   
   .mommy span:nth-child(77) {
-    transform: translate3d(191.9562px, 74.43579px, 141.81724px);
-    color: #00559d;
+    transform: translate3d(181.83807px, 63.56558px, 159.356px);
+    color: #00538f;
   }
   .mommy span:nth-child(77):before {
-    animation-delay: 0s, -0.616s;
+    animation-delay: 0s, -0.56s;
   }
   
   .mommy span:nth-child(78) {
-    transform: translate3d(-117.09776px, 171.4824px, 139.2189px);
-    color: #00559f;
+    transform: translate3d(-76.0502px, 178.94635px, 157.14507px);
+    color: #005391;
   }
   .mommy span:nth-child(78):before {
-    animation-delay: 0s, -0.624s;
+    animation-delay: 0s, -0.56727s;
   }
   
   .mommy span:nth-child(79) {
-    transform: translate3d(-141.56459px, -154.27344px, 136.59859px);
-    color: #0055a1;
+    transform: translate3d(-175.17029px, -88.41458px, 154.91363px);
+    color: #005393;
   }
   .mommy span:nth-child(79):before {
-    animation-delay: 0s, -0.632s;
+    animation-delay: 0s, -0.57455s;
   }
   
   .mommy span:nth-child(80) {
-    transform: translate3d(183.88352px, -103.64581px, 133.9567px);
-    color: #0055a3;
+    transform: translate3d(100.59452px, -170.51412px, 152.66197px);
+    color: #005494;
   }
   .mommy span:nth-child(80):before {
-    animation-delay: 0s, -0.64s;
+    animation-delay: 0s, -0.58182s;
   }
   
   .mommy span:nth-child(81) {
-    transform: translate3d(59.62359px, 204.22293px, 131.29366px);
-    color: #0055a5;
+    transform: translate3d(164.98684px, 112.52588px, 150.39039px);
+    color: #005496;
   }
   .mommy span:nth-child(81):before {
-    animation-delay: 0s, -0.648s;
+    animation-delay: 0s, -0.58909s;
   }
   
   .mommy span:nth-child(82) {
-    transform: translate3d(-214.0592px, 11.75395px, 128.60988px);
-    color: #0055a7;
+    transform: translate3d(-124.14499px, 158.60218px, 148.09918px);
+    color: #005498;
   }
   .mommy span:nth-child(82):before {
-    animation-delay: 0s, -0.656s;
+    animation-delay: 0s, -0.59636s;
   }
   
   .mommy span:nth-child(83) {
-    transform: translate3d(37.46555px, -212.70652px, 125.9058px);
-    color: #0055a9;
+    transform: translate3d(-151.37863px, -135.389px, 145.78865px);
+    color: #00549a;
   }
   .mommy span:nth-child(83):before {
-    animation-delay: 0s, -0.664s;
+    animation-delay: 0s, -0.60364s;
   }
   
   .mommy span:nth-child(84) {
-    transform: translate3d(200.07085px, 85.42769px, 123.18184px);
-    color: #0055ab;
+    transform: translate3d(146.19621px, -143.33931px, 143.45909px);
+    color: #00549c;
   }
   .mommy span:nth-child(84):before {
-    animation-delay: 0s, -0.672s;
+    animation-delay: 0s, -0.61091s;
   }
   
   .mommy span:nth-child(85) {
-    transform: translate3d(-129.5553px, 176.66355px, 120.43842px);
-    color: #0055ad;
+    transform: translate3d(134.51198px, 156.50645px, 141.1108px);
+    color: #00559e;
   }
   .mommy span:nth-child(85):before {
-    animation-delay: 0s, -0.68s;
+    animation-delay: 0s, -0.61818s;
   }
   
   .mommy span:nth-child(86) {
-    transform: translate3d(-143.58206px, -167.4412px, 117.67598px);
-    color: #0055af;
+    transform: translate3d(-166.2614px, 124.92886px, 138.74411px);
+    color: #00559f;
   }
   .mommy span:nth-child(86):before {
-    animation-delay: 0s, -0.688s;
+    animation-delay: 0s, -0.62545s;
   }
   
   .mommy span:nth-child(87) {
-    transform: translate3d(196.98078px, -102.45838px, 114.89497px);
-    color: #0055b1;
+    transform: translate3d(-114.62654px, -175.40495px, 136.3593px);
+    color: #0055a1;
   }
   .mommy span:nth-child(87):before {
-    animation-delay: 0s, -0.696s;
+    animation-delay: 0s, -0.63273s;
   }
   
   .mommy span:nth-child(88) {
-    transform: translate3d(55.37786px, 216.48978px, 112.0958px);
-    color: #0055b4;
+    transform: translate3d(183.88352px, -103.64581px, 133.9567px);
+    color: #0055a3;
   }
   .mommy span:nth-child(88):before {
-    animation-delay: 0s, -0.704s;
+    animation-delay: 0s, -0.64s;
   }
   
   .mommy span:nth-child(89) {
-    transform: translate3d(-224.80067px, 4.77219px, 109.27894px);
-    color: #0055b6;
+    transform: translate3d(92.03147px, 191.64636px, 131.53662px);
+    color: #0055a5;
   }
   .mommy span:nth-child(89):before {
-    animation-delay: 0s, -0.712s;
+    animation-delay: 0s, -0.64727s;
   }
   
   .mommy span:nth-child(90) {
-    transform: translate3d(46.70768px, -221.33209px, 106.44482px);
-    color: #0054b8;
+    transform: translate3d(-198.64588px, 79.83213px, 129.09937px);
+    color: #0055a7;
   }
   .mommy span:nth-child(90):before {
-    animation-delay: 0s, -0.72s;
+    animation-delay: 0s, -0.65455s;
   }
   
   .mommy span:nth-child(91) {
-    transform: translate3d(206.12725px, 96.33203px, 103.5939px);
-    color: #0054ba;
+    transform: translate3d(-67.1px, -204.8379px, 126.64527px);
+    color: #0055a9;
   }
   .mommy span:nth-child(91):before {
-    animation-delay: 0s, -0.728s;
+    animation-delay: 0s, -0.66182s;
   }
   
   .mommy span:nth-child(92) {
-    transform: translate3d(-141.43884px, 179.85884px, 100.72661px);
-    color: #0054bc;
+    transform: translate3d(210.18197px, -53.8906px, 124.17464px);
+    color: #0055ab;
   }
   .mommy span:nth-child(92):before {
-    animation-delay: 0s, -0.736s;
+    animation-delay: 0s, -0.66909s;
   }
   
   .mommy span:nth-child(93) {
-    transform: translate3d(-143.79977px, -179.57809px, 97.84342px);
-    color: #0054be;
+    transform: translate3d(40.26253px, 214.64157px, 121.68781px);
+    color: #0055ac;
   }
   .mommy span:nth-child(93):before {
-    animation-delay: 0s, -0.744s;
+    animation-delay: 0s, -0.67636s;
   }
   
   .mommy span:nth-child(94) {
-    transform: translate3d(208.64615px, -99.76108px, 94.94477px);
-    color: #0054c0;
+    transform: translate3d(-218.18438px, 26.27714px, 119.1851px);
+    color: #0055ae;
   }
   .mommy span:nth-child(94):before {
-    animation-delay: 0s, -0.752s;
+    animation-delay: 0s, -0.68364s;
   }
   
   .mommy span:nth-child(95) {
-    transform: translate3d(49.99996px, 227.00281px, 92.03114px);
-    color: #0053c2;
+    transform: translate3d(-11.99827px, -220.78245px, 116.66683px);
+    color: #0055b0;
   }
   .mommy span:nth-child(95):before {
-    animation-delay: 0s, -0.76s;
+    animation-delay: 0s, -0.69091s;
   }
   
   .mommy span:nth-child(96) {
-    transform: translate3d(-233.56427px, -2.89729px, 89.10297px);
-    color: #0053c4;
+    transform: translate3d(222.41243px, 2.50812px, 114.13334px);
+    color: #0055b2;
   }
   .mommy span:nth-child(96):before {
-    animation-delay: 0s, -0.768s;
+    animation-delay: 0s, -0.69818s;
   }
   
   .mommy span:nth-child(97) {
-    transform: translate3d(56.1513px, -227.86698px, 86.16073px);
-    color: #0053c6;
+    transform: translate3d(-17.17425px, 223.0557px, 111.58495px);
+    color: #0055b4;
   }
   .mommy span:nth-child(97):before {
-    animation-delay: 0s, -0.776s;
+    animation-delay: 0s, -0.70545s;
   }
   
   .mommy span:nth-child(98) {
-    transform: translate3d(210.09841px, 106.93738px, 83.20489px);
-    color: #0052c8;
+    transform: translate3d(-222.6985px, -31.93088px, 109.022px);
+    color: #0055b6;
   }
   .mommy span:nth-child(98):before {
-    animation-delay: 0s, -0.784s;
+    animation-delay: 0s, -0.71273s;
   }
   
   .mommy span:nth-child(99) {
-    transform: translate3d(-152.5371px, 181.09289px, 80.2359px);
-    color: #0052ca;
+    transform: translate3d(46.70768px, -221.33209px, 106.44482px);
+    color: #0054b8;
   }
   .mommy span:nth-child(99):before {
-    animation-delay: 0s, -0.792s;
+    animation-delay: 0s, -0.72s;
   }
   
   .mommy span:nth-child(100) {
-    transform: translate3d(-142.29234px, -190.48536px, 77.25425px);
-    color: #0052cc;
+    transform: translate3d(218.95277px, 61.43358px, 103.85375px);
+    color: #0054b9;
   }
   .mommy span:nth-child(100):before {
-    animation-delay: 0s, -0.8s;
+    animation-delay: 0s, -0.72727s;
   }
   
   .mommy span:nth-child(101) {
-    transform: translate3d(218.70503px, -95.67393px, 74.2604px);
-    color: #0051ce;
+    transform: translate3d(-76.03715px, 215.56198px, 101.24913px);
+    color: #0054bb;
   }
   .mommy span:nth-child(101):before {
-    animation-delay: 0s, -0.808s;
+    animation-delay: 0s, -0.73455s;
   }
   
   .mommy span:nth-child(102) {
-    transform: translate3d(43.64813px, 235.62171px, 71.25482px);
-    color: #0051d0;
+    transform: translate3d(-211.16631px, -90.44698px, 98.63129px);
+    color: #0054bd;
   }
   .mommy span:nth-child(102):before {
-    animation-delay: 0s, -0.816s;
+    animation-delay: 0s, -0.74182s;
   }
   
   .mommy span:nth-child(103) {
-    transform: translate3d(-240.25214px, -11.06745px, 68.23798px);
-    color: #0050d2;
+    transform: translate3d(104.59206px, -205.77752px, 96.00058px);
+    color: #0054bf;
   }
   .mommy span:nth-child(103):before {
-    animation-delay: 0s, -0.824s;
+    animation-delay: 0s, -0.74909s;
   }
   
   .mommy span:nth-child(104) {
-    transform: translate3d(65.59168px, -232.26136px, 65.21038px);
-    color: #0050d4;
+    transform: translate3d(199.41248px, 118.40215px, 93.35735px);
+    color: #0053c1;
   }
   .mommy span:nth-child(104):before {
-    animation-delay: 0s, -0.832s;
+    animation-delay: 0s, -0.75636s;
   }
   
   .mommy span:nth-child(105) {
-    transform: translate3d(211.98529px, 117.03341px, 62.17247px);
-    color: #004fd6;
+    transform: translate3d(-131.80814px, 192.09314px, 90.70193px);
+    color: #0053c3;
   }
   .mommy span:nth-child(105):before {
-    animation-delay: 0s, -0.84s;
+    animation-delay: 0s, -0.76364s;
   }
   
   .mommy span:nth-child(106) {
-    transform: translate3d(-162.64653px, 180.41722px, 59.12475px);
-    color: #004fd8;
+    transform: translate3d(-183.84644px, -144.74248px, 88.03467px);
+    color: #0053c5;
   }
   .mommy span:nth-child(106):before {
-    animation-delay: 0s, -0.848s;
+    animation-delay: 0s, -0.77091s;
   }
   
   .mommy span:nth-child(107) {
-    transform: translate3d(-139.15866px, -199.9782px, 56.06769px);
-    color: #004eda;
+    transform: translate3d(157.13947px, -174.70419px, 85.35592px);
+    color: #0053c6;
   }
   .mommy span:nth-child(107):before {
-    animation-delay: 0s, -0.856s;
+    animation-delay: 0s, -0.77818s;
   }
   
   .mommy span:nth-child(108) {
-    transform: translate3d(227.00218px, -90.33726px, 53.00178px);
-    color: #004edc;
+    transform: translate3d(164.70294px, 168.93569px, 82.66603px);
+    color: #0052c8;
   }
   .mommy span:nth-child(108):before {
-    animation-delay: 0s, -0.864s;
+    animation-delay: 0s, -0.78545s;
   }
   
   .mommy span:nth-child(109) {
-    transform: translate3d(36.49571px, 242.22987px, 49.9275px);
-    color: #004dde;
+    transform: translate3d(-180.0703px, 153.88382px, 79.96536px);
+    color: #0052ca;
   }
   .mommy span:nth-child(109):before {
-    animation-delay: 0s, -0.872s;
+    animation-delay: 0s, -0.79273s;
   }
   
   .mommy span:nth-child(110) {
-    transform: translate3d(-244.79301px, -19.54226px, 46.84533px);
-    color: #004ce0;
+    transform: translate3d(-142.29234px, -190.48536px, 77.25425px);
+    color: #0052cc;
   }
   .mommy span:nth-child(110):before {
-    animation-delay: 0s, -0.88s;
+    animation-delay: 0s, -0.8s;
   }
   
   .mommy span:nth-child(111) {
-    transform: translate3d(74.82171px, -234.49338px, 43.75576px);
-    color: #004ce2;
+    transform: translate3d(200.12621px, -129.97817px, 74.53306px);
+    color: #0051ce;
   }
   .mommy span:nth-child(111):before {
-    animation-delay: 0s, -0.888s;
+    animation-delay: 0s, -0.80727s;
   }
   
   .mommy span:nth-child(112) {
-    transform: translate3d(211.81663px, 126.41415px, 40.65929px);
-    color: #004be4;
+    transform: translate3d(116.99491px, 208.94172px, 71.80214px);
+    color: #0051d0;
   }
   .mommy span:nth-child(112):before {
-    animation-delay: 0s, -0.896s;
+    animation-delay: 0s, -0.81455s;
   }
   
   .mommy span:nth-child(113) {
-    transform: translate3d(-171.57446px, 177.90931px, 37.5564px);
-    color: #004ae7;
+    transform: translate3d(-216.88461px, 103.39985px, 69.06184px);
+    color: #0050d2;
   }
   .mommy span:nth-child(113):before {
-    animation-delay: 0s, -0.904s;
+    animation-delay: 0s, -0.82182s;
   }
   
   .mommy span:nth-child(114) {
-    transform: translate3d(-134.52027px, -207.88858px, 34.44757px);
-    color: #0049e9;
+    transform: translate3d(-89.25364px, -223.91167px, 66.31254px);
+    color: #0050d3;
   }
   .mommy span:nth-child(114):before {
-    animation-delay: 0s, -0.912s;
+    animation-delay: 0s, -0.82909s;
   }
   
   .mommy span:nth-child(115) {
-    transform: translate3d(233.40404px, -83.90935px, 31.33331px);
-    color: #0049eb;
+    transform: translate3d(229.98406px, -74.62002px, 63.55458px);
+    color: #004fd5;
   }
   .mommy span:nth-child(115):before {
-    animation-delay: 0s, -0.92s;
+    animation-delay: 0s, -0.83636s;
   }
   
   .mommy span:nth-child(116) {
-    transform: translate3d(28.7283px, 246.73599px, 28.2141px);
-    color: #0048ed;
+    transform: translate3d(59.56551px, 235.0675px, 60.78833px);
+    color: #004fd7;
   }
   .mommy span:nth-child(116):before {
-    animation-delay: 0s, -0.928s;
+    animation-delay: 0s, -0.84364s;
   }
   
   .mommy span:nth-child(117) {
-    transform: translate3d(-247.14317px, -28.11981px, 25.09043px);
-    color: #0047ef;
+    transform: translate3d(-239.13247px, 44.15905px, 58.01415px);
+    color: #004fd9;
   }
   .mommy span:nth-child(117):before {
-    animation-delay: 0s, -0.936s;
+    animation-delay: 0s, -0.85091s;
   }
   
   .mommy span:nth-child(118) {
-    transform: translate3d(83.63514px, -234.56939px, 21.9628px);
-    color: #0046f1;
+    transform: translate3d(-28.47165px, -242.15439px, 55.23239px);
+    color: #004edb;
   }
   .mommy span:nth-child(118):before {
-    animation-delay: 0s, -0.944s;
+    animation-delay: 0s, -0.85818s;
   }
   
   .mommy span:nth-child(119) {
-    transform: translate3d(209.64833px, 134.88123px, 18.8317px);
-    color: #0045f3;
+    transform: translate3d(244.11376px, -12.57608px, 52.44343px);
+    color: #004ddd;
   }
   .mommy span:nth-child(119):before {
-    animation-delay: 0s, -0.952s;
+    animation-delay: 0s, -0.86545s;
   }
   
   .mommy span:nth-child(120) {
-    transform: translate3d(-179.14208px, 173.67124px, 15.69763px);
-    color: #0045f5;
+    transform: translate3d(-3.45358px, 244.9963px, 49.64762px);
+    color: #004ddf;
   }
   .mommy span:nth-child(120):before {
-    animation-delay: 0s, -0.96s;
+    animation-delay: 0s, -0.87273s;
   }
   
   .mommy span:nth-child(121) {
-    transform: translate3d(-128.51927px, -214.06779px, 12.56108px);
-    color: #0044f7;
+    transform: translate3d(-244.79301px, -19.54226px, 46.84533px);
+    color: #004ce0;
   }
   .mommy span:nth-child(121):before {
-    animation-delay: 0s, -0.968s;
+    animation-delay: 0s, -0.88s;
   }
   
   .mommy span:nth-child(122) {
-    transform: translate3d(237.80074px, -76.56387px, 9.42255px);
-    color: #0043f9;
+    transform: translate3d(35.61432px, -243.50025px, 44.03693px);
+    color: #004ce2;
   }
   .mommy span:nth-child(122):before {
-    animation-delay: 0s, -0.976s;
+    animation-delay: 0s, -0.88727s;
   }
   
   .mommy span:nth-child(123) {
-    transform: translate3d(20.54083px, 249.0755px, 6.28252px);
-    color: #0042fb;
+    transform: translate3d(241.11979px, 51.59391px, 41.22278px);
+    color: #004be4;
   }
   .mommy span:nth-child(123):before {
-    animation-delay: 0s, -0.984s;
+    animation-delay: 0s, -0.89455s;
   }
   
   .mommy span:nth-child(124) {
-    transform: translate3d(-247.28708px, -36.59551px, 3.14151px);
-    color: #0041fd;
+    transform: translate3d(-67.4054px, 237.65879px, 38.40325px);
+    color: #004ae6;
   }
   .mommy span:nth-child(124):before {
-    animation-delay: 0s, -0.992s;
+    animation-delay: 0s, -0.90182s;
   }
   
   .mommy span:nth-child(125) {
-    transform: translate3d(91.82984px, -232.52372px, 0px);
-    color: #0040ff;
+    transform: translate3d(-233.12982px, -82.97374px, 35.57871px);
+    color: #004ae8;
   }
   .mommy span:nth-child(125):before {
-    animation-delay: 0s, -1s;
+    animation-delay: 0s, -0.90909s;
   }
   
   .mommy span:nth-child(126) {
-    transform: translate3d(205.56251px, 142.24692px, -3.14151px);
-    color: #0240ff;
+    transform: translate3d(98.22488px, -227.55075px, 32.74953px);
+    color: #0049ea;
   }
   .mommy span:nth-child(126):before {
-    animation-delay: 0s, -1.008s;
+    animation-delay: 0s, -0.91636s;
   }
   
   .mommy span:nth-child(127) {
-    transform: translate3d(-185.18718px, 167.828px, -6.28252px);
-    color: #0440ff;
+    transform: translate3d(220.9447px, 113.08611px, 29.91607px);
+    color: #0048ec;
   }
   .mommy span:nth-child(127):before {
-    animation-delay: 0s, -1.016s;
+    animation-delay: 0s, -0.92364s;
   }
   
   .mommy span:nth-child(128) {
-    transform: translate3d(-121.31607px, -218.38871px, -9.42255px);
-    color: #0640ff;
+    transform: translate3d(-127.48648px, 213.33997px, 27.07871px);
+    color: #0048ed;
   }
   .mommy span:nth-child(128):before {
-    animation-delay: 0s, -1.024s;
+    animation-delay: 0s, -0.93091s;
   }
   
   .mommy span:nth-child(129) {
-    transform: translate3d(240.10776px, -68.4871px, -12.56108px);
-    color: #0840ff;
+    transform: translate3d(-204.76982px, -141.35717px, 24.23781px);
+    color: #0047ef;
   }
   .mommy span:nth-child(129):before {
-    animation-delay: 0s, -1.032s;
+    animation-delay: 0s, -0.93818s;
   }
   
   .mommy span:nth-child(130) {
-    transform: translate3d(12.13438px, 249.21144px, -15.69763px);
-    color: #0a40ff;
+    transform: translate3d(154.63183px, -195.27238px, 21.39375px);
+    color: #0046f1;
   }
   .mommy span:nth-child(130):before {
-    animation-delay: 0s, -1.04s;
+    animation-delay: 0s, -0.94545s;
   }
   
   .mommy span:nth-child(131) {
-    transform: translate3d(-245.2375px, -44.76536px, -18.8317px);
-    color: #0c40ff;
+    transform: translate3d(184.89045px, 167.24692px, 18.5469px);
+    color: #0045f3;
   }
   .mommy span:nth-child(131):before {
-    animation-delay: 0s, -1.048s;
+    animation-delay: 0s, -0.95273s;
   }
   
   .mommy span:nth-child(132) {
-    transform: translate3d(99.211px, -228.41807px, -21.9628px);
-    color: #0e40ff;
+    transform: translate3d(-179.14208px, 173.67124px, 15.69763px);
+    color: #0045f5;
   }
   .mommy span:nth-child(132):before {
-    animation-delay: 0s, -1.056s;
+    animation-delay: 0s, -0.96s;
   }
   
   .mommy span:nth-child(133) {
-    transform: translate3d(199.66612px, 148.33715px, -25.09043px);
-    color: #1041ff;
+    transform: translate3d(-161.66619px, -190.26039px, 12.84631px);
+    color: #0044f7;
   }
   .mommy span:nth-child(133):before {
-    animation-delay: 0s, -1.064s;
+    animation-delay: 0s, -0.96727s;
   }
   
   .mommy span:nth-child(134) {
-    transform: translate3d(-189.56674px, 160.52543px, -28.2141px);
-    color: #1241ff;
+    transform: translate3d(200.54873px, -148.93066px, 9.99331px);
+    color: #0043f9;
   }
   .mommy span:nth-child(134):before {
-    animation-delay: 0s, -1.072s;
+    animation-delay: 0s, -0.97455s;
   }
   
   .mommy span:nth-child(135) {
-    transform: translate3d(-113.08676px, -220.74784px, -31.33331px);
-    color: #1441ff;
+    transform: translate3d(135.5237px, 209.958px, 7.13901px);
+    color: #0042fa;
   }
   .mommy span:nth-child(135):before {
-    animation-delay: 0s, -1.08s;
+    animation-delay: 0s, -0.98182s;
   }
   
   .mommy span:nth-child(136) {
-    transform: translate3d(240.26726px, -59.87496px, -34.44757px);
-    color: #1641ff;
+    transform: translate3d(-218.44343px, 121.50768px, 4.28378px);
+    color: #0041fc;
   }
   .mommy span:nth-child(136):before {
-    animation-delay: 0s, -1.088s;
+    animation-delay: 0s, -0.98909s;
   }
   
   .mommy span:nth-child(137) {
-    transform: translate3d(3.71306px, 247.13504px, -37.5564px);
-    color: #1842ff;
+    transform: translate3d(-106.94806px, -225.96476px, 1.42799px);
+    color: #0040fe;
   }
   .mommy span:nth-child(137):before {
-    animation-delay: 0s, -1.096s;
+    animation-delay: 0s, -0.99636s;
   }
   
   .mommy span:nth-child(138) {
-    transform: translate3d(-241.03527px, -52.42918px, -40.65929px);
-    color: #1b42ff;
+    transform: translate3d(232.48649px, -91.91297px, -1.42799px);
+    color: #0140ff;
   }
   .mommy span:nth-child(138):before {
-    animation-delay: 0s, -1.104s;
+    animation-delay: 0s, -1.00364s;
   }
   
   .mommy span:nth-child(139) {
-    transform: translate3d(105.59421px, -222.34049px, -43.75576px);
-    color: #1d42ff;
+    transform: translate3d(76.47289px, 237.97804px, -4.28378px);
+    color: #0340ff;
   }
   .mommy span:nth-child(139):before {
-    animation-delay: 0s, -1.112s;
+    animation-delay: 0s, -1.01091s;
   }
   
   .mommy span:nth-child(140) {
-    transform: translate3d(192.08925px, 152.99424px, -46.84533px);
-    color: #1f43ff;
+    transform: translate3d(-242.41391px, 60.70032px, -7.13901px);
+    color: #0540ff;
   }
   .mommy span:nth-child(140):before {
-    animation-delay: 0s, -1.12s;
+    animation-delay: 0s, -1.01818s;
   }
   
   .mommy span:nth-child(141) {
-    transform: translate3d(-192.15918px, 151.92793px, -49.9275px);
-    color: #2143ff;
+    transform: translate3d(-44.66935px, -245.77385px, -9.99331px);
+    color: #0640ff;
   }
   .mommy span:nth-child(141):before {
-    animation-delay: 0s, -1.128s;
+    animation-delay: 0s, -1.02545s;
   }
   
   .mommy span:nth-child(142) {
-    transform: translate3d(-104.02033px, -221.06692px, -53.00178px);
-    color: #2343ff;
+    transform: translate3d(248.04287px, -28.45531px, -12.84631px);
+    color: #0840ff;
   }
   .mommy span:nth-child(142):before {
-    animation-delay: 0s, -1.136s;
+    animation-delay: 0s, -1.03273s;
   }
   
   .mommy span:nth-child(143) {
-    transform: translate3d(238.24896px, -50.92983px, -56.06769px);
-    color: #2544ff;
+    transform: translate3d(12.13438px, 249.21144px, -15.69763px);
+    color: #0a40ff;
   }
   .mommy span:nth-child(143):before {
-    animation-delay: 0s, -1.144s;
+    animation-delay: 0s, -1.04s;
   }
   
   .mommy span:nth-child(144) {
-    transform: translate3d(-4.5193px, 242.86589px, -59.12475px);
-    color: #2744ff;
+    transform: translate3d(-249.27541px, -4.2168px, -18.5469px);
+    color: #0c40ff;
   }
   .mommy span:nth-child(144):before {
-    animation-delay: 0s, -1.152s;
+    animation-delay: 0s, -1.04727s;
   }
   
   .mommy span:nth-child(145) {
-    transform: translate3d(-234.74871px, -59.39381px, -62.17247px);
-    color: #2945ff;
+    transform: translate3d(20.52155px, -248.23612px, -21.39375px);
+    color: #0e40ff;
   }
   .mommy span:nth-child(145):before {
-    animation-delay: 0s, -1.16s;
+    animation-delay: 0s, -1.05455s;
   }
   
   .mommy span:nth-child(146) {
-    transform: translate3d(110.80845px, -214.40405px, -65.21038px);
-    color: #2b45ff;
+    transform: translate3d(246.10035px, 36.70352px, -24.23781px);
+    color: #1040ff;
   }
   .mommy span:nth-child(146):before {
-    animation-delay: 0s, -1.168s;
+    animation-delay: 0s, -1.06182s;
   }
   
   .mommy span:nth-child(147) {
-    transform: translate3d(182.98302px, 156.07944px, -68.23798px);
-    color: #2d46ff;
+    transform: translate3d(-52.68709px, 242.88025px, -27.07871px);
+    color: #1241ff;
   }
   .mommy span:nth-child(147):before {
-    animation-delay: 0s, -1.176s;
+    animation-delay: 0s, -1.06909s;
   }
   
   .mommy span:nth-child(148) {
-    transform: translate3d(-192.86629px, 142.21584px, -71.25482px);
-    color: #2f46ff;
+    transform: translate3d(-238.59332px, -68.39776px, -29.91607px);
+    color: #1341ff;
   }
   .mommy span:nth-child(148):before {
-    animation-delay: 0s, -1.184s;
+    animation-delay: 0s, -1.07636s;
   }
   
   .mommy span:nth-child(149) {
-    transform: translate3d(-94.31569px, -219.2942px, -74.2604px);
-    color: #3147ff;
+    transform: translate3d(83.76254px, -233.26231px, -32.74953px);
+    color: #1541ff;
   }
   .mommy span:nth-child(149):before {
-    animation-delay: 0s, -1.192s;
+    animation-delay: 0s, -1.08364s;
   }
   
   .mommy span:nth-child(150) {
-    transform: translate3d(234.05072px, -41.85741px, -77.25425px);
-    color: #3347ff;
+    transform: translate3d(226.91504px, 98.71029px, -35.57871px);
+    color: #1741ff;
   }
   .mommy span:nth-child(150):before {
-    animation-delay: 0s, -1.2s;
+    animation-delay: 0s, -1.09091s;
   }
   
   .mommy span:nth-child(151) {
-    transform: translate3d(-12.36241px, 236.45162px, -80.2359px);
-    color: #3548ff;
+    transform: translate3d(-113.17213px, 219.58429px, -38.40325px);
+    color: #1942ff;
   }
   .mommy span:nth-child(151):before {
-    animation-delay: 0s, -1.208s;
+    animation-delay: 0s, -1.09818s;
   }
   
   .mommy span:nth-child(152) {
-    transform: translate3d(-226.47255px, -65.47618px, -83.20489px);
-    color: #3749ff;
+    transform: translate3d(-211.3076px, -127.08178px, -41.22278px);
+    color: #1b42ff;
   }
   .mommy span:nth-child(152):before {
-    animation-delay: 0s, -1.216s;
+    animation-delay: 0s, -1.10545s;
   }
   
   .mommy span:nth-child(153) {
-    transform: translate3d(114.69876px, -204.74502px, -86.16073px);
-    color: #3949ff;
+    transform: translate3d(140.37586px, -202.12711px, -44.03693px);
+    color: #1d42ff;
   }
   .mommy span:nth-child(153):before {
-    animation-delay: 0s, -1.224s;
+    animation-delay: 0s, -1.11273s;
   }
   
   .mommy span:nth-child(154) {
-    transform: translate3d(172.51731px, 157.4752px, -89.10297px);
-    color: #3b4aff;
+    transform: translate3d(192.08925px, 152.99424px, -46.84533px);
+    color: #1f43ff;
   }
   .mommy span:nth-child(154):before {
-    animation-delay: 0s, -1.232s;
+    animation-delay: 0s, -1.12s;
   }
   
   .mommy span:nth-child(155) {
-    transform: translate3d(-191.61494px, 131.58262px, -92.03114px);
-    color: #3d4bff;
+    transform: translate3d(-164.88034px, 181.24455px, -49.64762px);
+    color: #2043ff;
   }
   .mommy span:nth-child(155):before {
-    animation-delay: 0s, -1.24s;
+    animation-delay: 0s, -1.12727s;
   }
   
   .mommy span:nth-child(156) {
-    transform: translate3d(-84.17849px, -215.40537px, -94.94477px);
-    color: #3f4cff;
+    transform: translate3d(-169.64736px, -175.98142px, -52.44343px);
+    color: #2243ff;
   }
   .mommy span:nth-child(156):before {
-    animation-delay: 0s, -1.248s;
+    animation-delay: 0s, -1.13455s;
   }
   
   .mommy span:nth-child(157) {
-    transform: translate3d(227.69862px, -32.86343px, -97.84342px);
-    color: #414cff;
+    transform: translate3d(186.24882px, -157.35553px, -55.23239px);
+    color: #2444ff;
   }
   .mommy span:nth-child(157):before {
-    animation-delay: 0s, -1.256s;
+    animation-delay: 0s, -1.14182s;
   }
   
   .mommy span:nth-child(158) {
-    transform: translate3d(-19.62263px, 227.96733px, -100.72661px);
-    color: #434dff;
+    transform: translate3d(144.43012px, 195.63818px, -58.01415px);
+    color: #2644ff;
   }
   .mommy span:nth-child(158):before {
-    animation-delay: 0s, -1.264s;
+    animation-delay: 0s, -1.14909s;
   }
   
   .mommy span:nth-child(159) {
-    transform: translate3d(-216.32653px, -70.50628px, -103.5939px);
-    color: #454eff;
+    transform: translate3d(-204.10973px, 130.93509px, -60.78833px);
+    color: #2844ff;
   }
   .mommy span:nth-child(159):before {
-    animation-delay: 0s, -1.272s;
+    animation-delay: 0s, -1.15636s;
   }
   
   .mommy span:nth-child(160) {
-    transform: translate3d(117.12886px, -193.52087px, -106.44482px);
-    color: #474fff;
+    transform: translate3d(-116.93689px, -211.6284px, -63.55458px);
+    color: #2a45ff;
   }
   .mommy span:nth-child(160):before {
-    animation-delay: 0s, -1.28s;
+    animation-delay: 0s, -1.16364s;
   }
   
   .mommy span:nth-child(161) {
-    transform: translate3d(160.87812px, 157.08706px, -109.27894px);
-    color: #4950ff;
+    transform: translate3d(218.16401px, -102.50421px, -66.31254px);
+    color: #2c45ff;
   }
   .mommy span:nth-child(161):before {
-    animation-delay: 0s, -1.288s;
+    animation-delay: 0s, -1.17091s;
   }
   
   .mommy span:nth-child(162) {
-    transform: translate3d(-188.35825px, 120.23186px, -112.0958px);
-    color: #4b51ff;
+    transform: translate3d(87.7075px, 223.69143px, -69.06184px);
+    color: #2d46ff;
   }
   .mommy span:nth-child(162):before {
-    animation-delay: 0s, -1.296s;
+    animation-delay: 0s, -1.17818s;
   }
   
   .mommy span:nth-child(163) {
-    transform: translate3d(-73.81796px, -209.40405px, -114.89497px);
-    color: #4e51ff;
+    transform: translate3d(-228.19066px, 72.6187px, -71.80214px);
+    color: #2f46ff;
   }
   .mommy span:nth-child(163):before {
-    animation-delay: 0s, -1.304s;
+    animation-delay: 0s, -1.18545s;
   }
   
   .mommy span:nth-child(164) {
-    transform: translate3d(219.24671px, -24.1504px, -117.67598px);
-    color: #5052ff;
+    transform: translate3d(-57.31078px, -231.64693px, -74.53306px);
+    color: #3147ff;
   }
   .mommy span:nth-child(164):before {
-    animation-delay: 0s, -1.312s;
+    animation-delay: 0s, -1.19273s;
   }
   
   .mommy span:nth-child(165) {
-    transform: translate3d(-26.11614px, 217.51445px, -120.43842px);
-    color: #5253ff;
+    transform: translate3d(234.05072px, -41.85741px, -77.25425px);
+    color: #3347ff;
   }
   .mommy span:nth-child(165):before {
-    animation-delay: 0s, -1.32s;
+    animation-delay: 0s, -1.2s;
   }
   
   .mommy span:nth-child(166) {
-    transform: translate3d(-204.45368px, -74.32987px, -123.18184px);
-    color: #5454ff;
+    transform: translate3d(26.33255px, 235.39783px, -79.96536px);
+    color: #3548ff;
   }
   .mommy span:nth-child(166):before {
-    animation-delay: 0s, -1.328s;
+    animation-delay: 0s, -1.20727s;
   }
   
   .mommy span:nth-child(167) {
-    transform: translate3d(117.98332px, -180.90789px, -125.9058px);
-    color: #5656ff;
+    transform: translate3d(-235.68935px, 10.81006px, -82.66603px);
+    color: #3749ff;
   }
   .mommy span:nth-child(167):before {
-    animation-delay: 0s, -1.336s;
+    animation-delay: 0s, -1.21455s;
   }
   
   .mommy span:nth-child(168) {
-    transform: translate3d(148.26468px, 154.84535px, -128.60988px);
-    color: #5958ff;
+    transform: translate3d(4.63668px, -234.93162px, -85.35592px);
+    color: #3949ff;
   }
   .mommy span:nth-child(168):before {
-    animation-delay: 0s, -1.344s;
+    animation-delay: 0s, -1.22182s;
   }
   
   .mommy span:nth-child(169) {
-    transform: translate3d(-183.07654px, 108.37415px, -131.29366px);
-    color: #5c5aff;
+    transform: translate3d(233.1362px, 19.93513px, -88.03467px);
+    color: #3a4aff;
   }
   .mommy span:nth-child(169):before {
-    animation-delay: 0s, -1.352s;
+    animation-delay: 0s, -1.22909s;
   }
   
   .mommy span:nth-child(170) {
-    transform: translate3d(-63.4436px, -201.32191px, -133.9567px);
-    color: #5f5cff;
+    transform: translate3d(-35.01401px, 230.31973px, -90.70193px);
+    color: #3c4aff;
   }
   .mommy span:nth-child(170):before {
-    animation-delay: 0s, -1.36s;
+    animation-delay: 0s, -1.23636s;
   }
   
   .mommy span:nth-child(171) {
-    transform: translate3d(208.77633px, -15.91443px, -136.59859px);
-    color: #625eff;
+    transform: translate3d(-226.50387px, -49.80363px, -93.35735px);
+    color: #3e4bff;
   }
   .mommy span:nth-child(171):before {
-    animation-delay: 0s, -1.368s;
+    animation-delay: 0s, -1.24364s;
   }
   
   .mommy span:nth-child(172) {
-    transform: translate3d(-31.67186px, 205.21937px, -139.2189px);
-    color: #6560ff;
+    transform: translate3d(64.23623px, -221.71512px, -96.00058px);
+    color: #404cff;
   }
   .mommy span:nth-child(172):before {
-    animation-delay: 0s, -1.376s;
+    animation-delay: 0s, -1.25091s;
   }
   
   .mommy span:nth-child(173) {
-    transform: translate3d(-191.01816px, -76.81104px, -141.81724px);
-    color: #6862ff;
+    transform: translate3d(215.98466px, 78.24637px, -98.63129px);
+    color: #424cff;
   }
   .mommy span:nth-child(173):before {
-    animation-delay: 0s, -1.384s;
+    animation-delay: 0s, -1.25818s;
   }
   
   .mommy span:nth-child(174) {
-    transform: translate3d(117.16951px, -167.09853px, -144.39318px);
-    color: #6b64ff;
+    transform: translate3d(-91.77124px, 209.34816px, -101.24913px);
+    color: #444dff;
   }
   .mommy span:nth-child(174):before {
-    animation-delay: 0s, -1.392s;
+    animation-delay: 0s, -1.26545s;
   }
   
   .mommy span:nth-child(175) {
-    transform: translate3d(134.88651px, 150.70637px, -146.94631px);
-    color: #6e66ff;
+    transform: translate3d(-201.84557px, -104.75095px, -103.85375px);
+    color: #464eff;
   }
   .mommy span:nth-child(175):before {
-    animation-delay: 0s, -1.4s;
+    animation-delay: 0s, -1.27273s;
   }
   
   .mommy span:nth-child(176) {
-    transform: translate3d(-175.77781px, 96.22378px, -149.47625px);
-    color: #7068ff;
+    transform: translate3d(117.12886px, -193.52087px, -106.44482px);
+    color: #474fff;
   }
   .mommy span:nth-child(176):before {
-    animation-delay: 0s, -1.408s;
+    animation-delay: 0s, -1.28s;
   }
   
   .mommy span:nth-child(177) {
-    transform: translate3d(-53.26196px, -191.21836px, -151.98257px);
-    color: #736aff;
+    transform: translate3d(184.42182px, 128.85184px, -109.022px);
+    color: #4950ff;
   }
   .mommy span:nth-child(177):before {
-    animation-delay: 0s, -1.416s;
+    animation-delay: 0s, -1.28727s;
   }
   
   .mommy span:nth-child(178) {
-    transform: translate3d(196.39502px, -8.34211px, -154.4649px);
-    color: #766cff;
+    transform: translate3d(-139.8705px, 174.59966px, -111.58495px);
+    color: #4b50ff;
   }
   .mommy span:nth-child(178):before {
-    animation-delay: 0s, -1.424s;
+    animation-delay: 0s, -1.29455s;
   }
   
   .mommy span:nth-child(179) {
-    transform: translate3d(-36.13415px, 191.23165px, -156.92284px);
-    color: #796eff;
+    transform: translate3d(-164.10886px, -150.13948px, -114.13334px);
+    color: #4d51ff;
   }
   .mommy span:nth-child(179):before {
-    animation-delay: 0s, -1.432s;
+    animation-delay: 0s, -1.30182s;
   }
   
   .mommy span:nth-child(180) {
-    transform: translate3d(-176.20293px, -77.8344px, -159.356px);
-    color: #7c70ff;
+    transform: translate3d(159.61763px, -153.00674px, -116.66683px);
+    color: #4f52ff;
   }
   .mommy span:nth-child(180):before {
-    animation-delay: 0s, -1.44s;
+    animation-delay: 0s, -1.30909s;
   }
   
   .mommy span:nth-child(181) {
-    transform: translate3d(114.61923px, -152.29853px, -161.76399px);
-    color: #7e72ff;
+    transform: translate3d(141.35323px, 168.26817px, -119.1851px);
+    color: #5153ff;
   }
   .mommy span:nth-child(181):before {
-    animation-delay: 0s, -1.448s;
+    animation-delay: 0s, -1.31636s;
   }
   
   .mommy span:nth-child(182) {
-    transform: translate3d(120.96021px, 144.65329px, -164.14644px);
-    color: #8174ff;
+    transform: translate3d(-176.0589px, 129.21045px, -121.68781px);
+    color: #5354ff;
   }
   .mommy span:nth-child(182):before {
-    animation-delay: 0s, -1.456s;
+    animation-delay: 0s, -1.32364s;
   }
   
   .mommy span:nth-child(183) {
-    transform: translate3d(-166.49779px, 83.99552px, -166.50297px);
-    color: #8476ff;
+    transform: translate3d(-116.64242px, -182.96231px, -124.17464px);
+    color: #5455ff;
   }
   .mommy span:nth-child(183):before {
-    animation-delay: 0s, -1.464s;
+    animation-delay: 0s, -1.33091s;
   }
   
   .mommy span:nth-child(184) {
-    transform: translate3d(-43.4734px, -179.17984px, -168.8332px);
-    color: #8678ff;
+    transform: translate3d(188.95567px, -103.71466px, -126.64527px);
+    color: #5756ff;
   }
   .mommy span:nth-child(184):before {
-    animation-delay: 0s, -1.472s;
+    animation-delay: 0s, -1.33818s;
   }
   
   .mommy span:nth-child(185) {
-    transform: translate3d(182.23507px, -1.60759px, -171.13678px);
-    color: #897aff;
+    transform: translate3d(90.49388px, 194.02116px, -129.09937px);
+    color: #5a58ff;
   }
   .mommy span:nth-child(185):before {
-    animation-delay: 0s, -1.48s;
+    animation-delay: 0s, -1.34545s;
   }
   
   .mommy span:nth-child(186) {
-    transform: translate3d(-39.36539px, 175.72189px, -173.41333px);
-    color: #8c7cff;
+    transform: translate3d(-198.14589px, 77.04755px, -131.53662px);
+    color: #5c5aff;
   }
   .mommy span:nth-child(186):before {
-    animation-delay: 0s, -1.488s;
+    animation-delay: 0s, -1.35273s;
   }
   
   .mommy span:nth-child(187) {
-    transform: translate3d(-160.20707px, -77.30707px, -175.66249px);
-    color: #8e7eff;
+    transform: translate3d(-63.4436px, -201.32191px, -133.9567px);
+    color: #5f5cff;
   }
   .mommy span:nth-child(187):before {
-    animation-delay: 0s, -1.496s;
+    animation-delay: 0s, -1.36s;
   }
   
   .mommy span:nth-child(188) {
-    transform: translate3d(110.28996px, -136.72394px, -177.88392px);
-    color: #9181ff;
+    transform: translate3d(203.54626px, -49.74999px, -136.3593px);
+    color: #625eff;
   }
   .mommy span:nth-child(188):before {
-    animation-delay: 0s, -1.504s;
+    animation-delay: 0s, -1.36727s;
   }
   
   .mommy span:nth-child(189) {
-    transform: translate3d(106.7062px, 136.69663px, -180.07726px);
-    color: #9383ff;
+    transform: translate3d(36.0344px, 204.82089px, -138.74411px);
+    color: #6460ff;
   }
   .mommy span:nth-child(189):before {
-    animation-delay: 0s, -1.512s;
+    animation-delay: 0s, -1.37455s;
   }
   
   .mommy span:nth-child(190) {
-    transform: translate3d(-155.29968px, 71.90135px, -182.24216px);
-    color: #9685ff;
+    transform: translate3d(-205.15263px, 22.3638px, -141.1108px);
+    color: #6761ff;
   }
   .mommy span:nth-child(190):before {
-    animation-delay: 0s, -1.52s;
+    animation-delay: 0s, -1.38182s;
   }
   
   .mommy span:nth-child(191) {
-    transform: translate3d(-34.26898px, -165.31874px, -184.37828px);
-    color: #9887ff;
+    transform: translate3d(-8.80418px, -204.55311px, -143.45909px);
+    color: #6a63ff;
   }
   .mommy span:nth-child(191):before {
-    animation-delay: 0s, -1.528s;
+    animation-delay: 0s, -1.38909s;
   }
   
   .mommy span:nth-child(192) {
-    transform: translate3d(166.45173px, 4.1302px, -186.48529px);
-    color: #9b89ff;
+    transform: translate3d(203.03865px, 4.57987px, -145.78865px);
+    color: #6c65ff;
   }
   .mommy span:nth-child(192):before {
-    animation-delay: 0s, -1.536s;
+    animation-delay: 0s, -1.39636s;
   }
   
   .mommy span:nth-child(193) {
-    transform: translate3d(-41.2482px, 158.87932px, -188.56285px);
-    color: #9d8bff;
+    transform: translate3d(-17.72546px, 200.63011px, -148.09918px);
+    color: #6f67ff;
   }
   .mommy span:nth-child(193):before {
-    animation-delay: 0s, -1.544s;
+    animation-delay: 0s, -1.40364s;
   }
   
   .mommy span:nth-child(194) {
-    transform: translate3d(-143.24291px, -75.16022px, -190.61063px);
-    color: #9f8dff;
+    transform: translate3d(-197.35273px, -30.57172px, -150.39039px);
+    color: #7269ff;
   }
   .mommy span:nth-child(194):before {
-    animation-delay: 0s, -1.552s;
+    animation-delay: 0s, -1.41091s;
   }
   
   .mommy span:nth-child(195) {
-    transform: translate3d(104.16567px, -120.59788px, -192.62831px);
-    color: #a28fff;
+    transform: translate3d(43.06014px, -193.23599px, -152.66197px);
+    color: #746bff;
   }
   .mommy span:nth-child(195):before {
-    animation-delay: 0s, -1.56s;
+    animation-delay: 0s, -1.41818s;
   }
   
   .mommy span:nth-child(196) {
-    transform: translate3d(92.34544px, 126.87434px, -194.61558px);
-    color: #a491ff;
+    transform: translate3d(188.31335px, 55.13484px, -154.91363px);
+    color: #776cff;
   }
   .mommy span:nth-child(196):before {
-    animation-delay: 0s, -1.568s;
+    animation-delay: 0s, -1.42545s;
   }
   
   .mommy span:nth-child(197) {
-    transform: translate3d(-142.27341px, 60.14718px, -196.57211px);
-    color: #a793ff;
+    transform: translate3d(-66.74285px, 182.62207px, -157.14507px);
+    color: #796eff;
   }
   .mommy span:nth-child(197):before {
-    animation-delay: 0s, -1.576s;
+    animation-delay: 0s, -1.43273s;
   }
   
   .mommy span:nth-child(198) {
-    transform: translate3d(-25.82753px, -149.77197px, -198.4976px);
-    color: #a995ff;
+    transform: translate3d(-176.20293px, -77.8344px, -159.356px);
+    color: #7c70ff;
   }
   .mommy span:nth-child(198):before {
-    animation-delay: 0s, -1.584s;
+    animation-delay: 0s, -1.44s;
   }
   
   .mommy span:nth-child(199) {
-    transform: translate3d(149.22109px, 8.73005px, -200.39175px);
-    color: #ab97ff;
+    transform: translate3d(88.36311px, -169.1px, -161.54613px);
+    color: #7e72ff;
   }
   .mommy span:nth-child(199):before {
-    animation-delay: 0s, -1.592s;
+    animation-delay: 0s, -1.44727s;
   }
   
   .mommy span:nth-child(200) {
-    transform: translate3d(-41.68736px, 140.90913px, -202.25425px);
-    color: #ad99ff;
+    transform: translate3d(161.36033px, 98.28623px, -163.71518px);
+    color: #8174ff;
   }
   .mommy span:nth-child(200):before {
-    animation-delay: 0s, -1.6s;
+    animation-delay: 0s, -1.45455s;
   }
   
   .mommy span:nth-child(201) {
-    transform: translate3d(-125.53291px, -71.35038px, -204.08481px);
-    color: #b09bff;
+    transform: translate3d(-107.56486px, 153.03369px, -165.86287px);
+    color: #8376ff;
   }
   .mommy span:nth-child(201):before {
-    animation-delay: 0s, -1.608s;
+    animation-delay: 0s, -1.46182s;
   }
   
   .mommy span:nth-child(202) {
-    transform: translate3d(96.25734px, -104.14727px, -205.88315px);
-    color: #b29dff;
+    transform: translate3d(-144.17223px, -116.16409px, -167.98891px);
+    color: #8578ff;
   }
   .mommy span:nth-child(202):before {
-    animation-delay: 0s, -1.616s;
+    animation-delay: 0s, -1.46909s;
   }
   
   .mommy span:nth-child(203) {
-    transform: translate3d(78.09614px, 115.25145px, -207.64897px);
-    color: #b49fff;
+    transform: translate3d(124.05315px, -134.83019px, -170.09303px);
+    color: #8879ff;
   }
   .mommy span:nth-child(203):before {
-    animation-delay: 0s, -1.624s;
+    animation-delay: 0s, -1.47636s;
   }
   
   .mommy span:nth-child(204) {
-    transform: translate3d(-127.53451px, 48.92977px, -209.38201px);
-    color: #b6a1ff;
+    transform: translate3d(125.06356px, 131.20555px, -172.17494px);
+    color: #8a7bff;
   }
   .mommy span:nth-child(204):before {
-    animation-delay: 0s, -1.632s;
+    animation-delay: 0s, -1.48364s;
   }
   
   .mommy span:nth-child(205) {
-    transform: translate3d(-18.31287px, -132.69904px, -211.08198px);
-    color: #b8a3ff;
+    transform: translate3d(-137.59917px, 114.92974px, -174.23439px);
+    color: #8d7dff;
   }
   .mommy span:nth-child(205):before {
-    animation-delay: 0s, -1.64s;
+    animation-delay: 0s, -1.49091s;
   }
   
   .mommy span:nth-child(206) {
-    transform: translate3d(130.73761px, 12.07073px, -212.74862px);
-    color: #baa5ff;
+    transform: translate3d(-104.48722px, -143.21634px, -176.2711px);
+    color: #8f7fff;
   }
   .mommy span:nth-child(206):before {
-    animation-delay: 0s, -1.648s;
+    animation-delay: 0s, -1.49818s;
   }
   
   .mommy span:nth-child(207) {
-    transform: translate3d(-40.61145px, 122.02956px, -214.38166px);
-    color: #bda7ff;
+    transform: translate3d(148.04385px, -93.79523px, -178.28481px);
+    color: #9181ff;
   }
   .mommy span:nth-child(207):before {
-    animation-delay: 0s, -1.656s;
+    animation-delay: 0s, -1.50545s;
   }
   
   .mommy span:nth-child(208) {
-    transform: translate3d(-107.30656px, -65.86025px, -215.98085px);
-    color: #bfa9ff;
+    transform: translate3d(82.91338px, 152.07303px, -180.27525px);
+    color: #9383ff;
   }
   .mommy span:nth-child(208):before {
-    animation-delay: 0s, -1.664s;
+    animation-delay: 0s, -1.51273s;
   }
   
   .mommy span:nth-child(209) {
-    transform: translate3d(86.60304px, -87.59953px, -217.54594px);
-    color: #c1abff;
+    transform: translate3d(-155.29968px, 71.90135px, -182.24216px);
+    color: #9685ff;
   }
   .mommy span:nth-child(209):before {
-    animation-delay: 0s, -1.672s;
+    animation-delay: 0s, -1.52s;
   }
   
   .mommy span:nth-child(210) {
-    transform: translate3d(64.17049px, 101.91938px, -219.07667px);
-    color: #c3adff;
+    transform: translate3d(-60.81853px, -157.72409px, -184.18528px);
+    color: #9886ff;
   }
   .mommy span:nth-child(210):before {
-    animation-delay: 0s, -1.68s;
+    animation-delay: 0s, -1.52727s;
   }
   
   .mommy span:nth-child(211) {
-    transform: translate3d(-111.22267px, 38.43376px, -220.57281px);
-    color: #c5afff;
+    transform: translate3d(159.35093px, -49.72367px, -186.10437px);
+    color: #9a88ff;
   }
   .mommy span:nth-child(211):before {
-    animation-delay: 0s, -1.688s;
+    animation-delay: 0s, -1.53455s;
   }
   
   .mommy span:nth-child(212) {
-    transform: translate3d(-11.87126px, -114.28003px, -222.03411px);
-    color: #c7b1ff;
+    transform: translate3d(38.67459px, 160.18922px, -187.99918px);
+    color: #9c8aff;
   }
   .mommy span:nth-child(212):before {
-    animation-delay: 0s, -1.696s;
+    animation-delay: 0s, -1.54182s;
   }
   
   .mommy span:nth-child(213) {
-    transform: translate3d(111.21144px, 14.05295px, -223.46036px);
-    color: #c9b4ff;
+    transform: translate3d(-160.25218px, 27.72785px, -189.86945px);
+    color: #9f8cff;
   }
   .mommy span:nth-child(213):before {
-    animation-delay: 0s, -1.704s;
+    animation-delay: 0s, -1.54909s;
   }
   
   .mommy span:nth-child(214) {
-    transform: translate3d(-37.97405px, 102.46882px, -224.85131px);
-    color: #cab6ff;
+    transform: translate3d(-16.93839px, -159.55712px, -191.71493px);
+    color: #a18eff;
   }
   .mommy span:nth-child(214):before {
-    animation-delay: 0s, -1.712s;
+    animation-delay: 0s, -1.55636s;
   }
   
   .mommy span:nth-child(215) {
-    transform: translate3d(-88.79699px, -58.69919px, -226.20676px);
-    color: #ccb8ff;
+    transform: translate3d(158.12529px, -6.35933px, -193.5354px);
+    color: #a390ff;
   }
   .mommy span:nth-child(215):before {
-    animation-delay: 0s, -1.72s;
+    animation-delay: 0s, -1.56364s;
   }
   
   .mommy span:nth-child(216) {
-    transform: translate3d(75.26755px, -71.17929px, -227.52649px);
-    color: #cebaff;
+    transform: translate3d(-3.9584px, 155.98167px, -195.33061px);
+    color: #a592ff;
   }
   .mommy span:nth-child(216):before {
-    animation-delay: 0s, -1.728s;
+    animation-delay: 0s, -1.57091s;
   }
   
   .mommy span:nth-child(217) {
-    transform: translate3d(50.77157px, 86.99481px, -228.81029px);
-    color: #d0bcff;
+    transform: translate3d(-153.15483px, -13.9663px, -197.10033px);
+    color: #a793ff;
   }
   .mommy span:nth-child(217):before {
-    animation-delay: 0s, -1.736s;
+    animation-delay: 0s, -1.57818s;
   }
   
   .mommy span:nth-child(218) {
-    transform: translate3d(-93.4999px, 28.82886px, -230.05796px);
-    color: #d2beff;
+    transform: translate3d(23.61853px, -149.67664px, -198.84433px);
+    color: #a995ff;
   }
   .mommy span:nth-child(218):before {
-    animation-delay: 0s, -1.744s;
+    animation-delay: 0s, -1.58545s;
   }
   
   .mommy span:nth-child(219) {
-    transform: translate3d(-6.62916px, -94.71306px, -231.2693px);
-    color: #d4c0ff;
+    transform: translate3d(145.58212px, 32.87215px, -200.56238px);
+    color: #ab97ff;
   }
   .mommy span:nth-child(219):before {
-    animation-delay: 0s, -1.752s;
+    animation-delay: 0s, -1.59273s;
   }
   
   .mommy span:nth-child(220) {
-    transform: translate3d(90.86552px, 14.60096px, -232.44412px);
-    color: #d5c2ff;
+    transform: translate3d(-41.68736px, 140.90913px, -202.25425px);
+    color: #ad99ff;
   }
   .mommy span:nth-child(220):before {
-    animation-delay: 0s, -1.76s;
+    animation-delay: 0s, -1.6s;
   }
   
   .mommy span:nth-child(221) {
-    transform: translate3d(-33.75468px, 82.46188px, -233.58224px);
-    color: #d7c4ff;
+    transform: translate3d(-135.69812px, -50.02766px, -203.91973px);
+    color: #af9bff;
   }
   .mommy span:nth-child(221):before {
-    animation-delay: 0s, -1.768s;
+    animation-delay: 0s, -1.60727s;
   }
   
   .mommy span:nth-child(222) {
-    transform: translate3d(-70.23767px, -49.90331px, -234.68346px);
-    color: #d9c6ff;
+    transform: translate3d(57.86003px, -129.99186px, -205.55859px);
+    color: #b19dff;
   }
   .mommy span:nth-child(222):before {
-    animation-delay: 0s, -1.776s;
+    animation-delay: 0s, -1.61455s;
   }
   
   .mommy span:nth-child(223) {
-    transform: translate3d(62.34169px, -55.10505px, -235.74763px);
-    color: #dbc8ff;
+    transform: translate3d(123.83516px, 65.15508px, -207.17063px);
+    color: #b39fff;
   }
   .mommy span:nth-child(223):before {
-    animation-delay: 0s, -1.784s;
+    animation-delay: 0s, -1.62182s;
   }
   
   .mommy span:nth-child(224) {
-    transform: translate3d(38.0903px, 70.61819px, -236.77458px);
-    color: #dccaff;
+    transform: translate3d(-71.88718px, 117.27455px, -208.75563px);
+    color: #b5a0ff;
   }
   .mommy span:nth-child(224):before {
-    animation-delay: 0s, -1.792s;
+    animation-delay: 0s, -1.62909s;
   }
   
   .mommy span:nth-child(225) {
-    transform: translate3d(-74.54834px, 20.26732px, -237.76413px);
-    color: #deccff;
+    transform: translate3d(-110.358px, -78.03456px, -210.31338px);
+    color: #b7a2ff;
   }
   .mommy span:nth-child(225):before {
-    animation-delay: 0s, -1.8s;
+    animation-delay: 0s, -1.63636s;
   }
   
   .mommy span:nth-child(226) {
-    transform: translate3d(-2.69125px, -74.21161px, -238.71614px);
-    color: #dfceff;
+    transform: translate3d(83.57936px, -103.13458px, -211.84369px);
+    color: #b9a4ff;
   }
   .mommy span:nth-child(226):before {
-    animation-delay: 0s, -1.808s;
+    animation-delay: 0s, -1.64364s;
   }
   
   .mommy span:nth-child(227) {
-    transform: translate3d(69.93246px, 13.66382px, -239.63045px);
-    color: #e1d0ff;
+    transform: translate3d(95.65416px, 88.50771px, -213.34636px);
+    color: #bba6ff;
   }
   .mommy span:nth-child(227):before {
-    animation-delay: 0s, -1.816s;
+    animation-delay: 0s, -1.65091s;
   }
   
   .mommy span:nth-child(228) {
-    transform: translate3d(-27.95919px, 62.24714px, -240.50692px);
-    color: #e3d2ff;
+    transform: translate3d(-92.80975px, 87.96712px, -214.82117px);
+    color: #bda8ff;
   }
   .mommy span:nth-child(228):before {
-    animation-delay: 0s, -1.824s;
+    animation-delay: 0s, -1.65818s;
   }
   
   .mommy span:nth-child(229) {
-    transform: translate3d(-51.85911px, -39.53512px, -241.34541px);
-    color: #e4d4ff;
+    transform: translate3d(-80.12398px, -96.47963px, -216.26796px);
+    color: #bfaaff;
   }
   .mommy span:nth-child(229):before {
-    animation-delay: 0s, -1.832s;
+    animation-delay: 0s, -1.66545s;
   }
   
   .mommy span:nth-child(230) {
-    transform: translate3d(47.94116px, -39.58613px, -242.14579px);
-    color: #e6d6ff;
+    transform: translate3d(99.51548px, -72.17512px, -217.68652px);
+    color: #c1acff;
   }
   .mommy span:nth-child(230):before {
-    animation-delay: 0s, -1.84s;
+    animation-delay: 0s, -1.67273s;
   }
   
   .mommy span:nth-child(231) {
-    transform: translate3d(26.30269px, 52.9519px, -242.90793px);
-    color: #e7d8ff;
+    transform: translate3d(64.17049px, 101.91938px, -219.07667px);
+    color: #c3adff;
   }
   .mommy span:nth-child(231):before {
-    animation-delay: 0s, -1.848s;
+    animation-delay: 0s, -1.68s;
   }
   
   .mommy span:nth-child(232) {
-    transform: translate3d(-54.56783px, 12.88167px, -243.63172px);
-    color: #e9daff;
+    transform: translate3d(-103.69727px, 56.15926px, -220.43823px);
+    color: #c4afff;
   }
   .mommy span:nth-child(232):before {
-    animation-delay: 0s, -1.856s;
+    animation-delay: 0s, -1.68727s;
   }
   
   .mommy span:nth-child(233) {
-    transform: translate3d(-0.13882px, -53.0016px, -244.31703px);
-    color: #eadcff;
+    transform: translate3d(-48.18953px, -104.85887px, -221.77102px);
+    color: #c6b1ff;
   }
   .mommy span:nth-child(233):before {
-    animation-delay: 0s, -1.864s;
+    animation-delay: 0s, -1.69455s;
   }
   
   .mommy span:nth-child(234) {
-    transform: translate3d(48.65132px, 11.21624px, -244.96376px);
-    color: #ecdeff;
+    transform: translate3d(105.41755px, -40.30809px, -223.07487px);
+    color: #c8b3ff;
   }
   .mommy span:nth-child(234):before {
-    animation-delay: 0s, -1.872s;
+    animation-delay: 0s, -1.70182s;
   }
   
   .mommy span:nth-child(235) {
-    transform: translate3d(-20.61991px, 42.0631px, -245.57181px);
-    color: #ede0ff;
+    transform: translate3d(32.56008px, 105.3902px, -224.34961px);
+    color: #cab5ff;
   }
   .mommy span:nth-child(235):before {
-    animation-delay: 0s, -1.88s;
+    animation-delay: 0s, -1.70909s;
   }
   
   .mommy span:nth-child(236) {
-    transform: translate3d(-33.88553px, -27.68281px, -246.14108px);
-    color: #eee2ff;
+    transform: translate3d(-104.79708px, 24.98879px, -225.59506px);
+    color: #cbb7ff;
   }
   .mommy span:nth-child(236):before {
-    animation-delay: 0s, -1.888s;
+    animation-delay: 0s, -1.71636s;
   }
   
   .mommy span:nth-child(237) {
-    transform: translate3d(32.20507px, -24.81957px, -246.67149px);
-    color: #f0e4ff;
+    transform: translate3d(-17.63535px, -103.6616px, -226.81108px);
+    color: #cdb9ff;
   }
   .mommy span:nth-child(237):before {
-    animation-delay: 0s, -1.896s;
+    animation-delay: 0s, -1.72364s;
   }
   
   .mommy span:nth-child(238) {
-    transform: translate3d(15.56726px, 34.17811px, -247.16294px);
-    color: #f1e7ff;
+    transform: translate3d(102.0102px, -10.53855px, -227.9975px);
+    color: #cfbaff;
   }
   .mommy span:nth-child(238):before {
-    animation-delay: 0s, -1.904s;
+    animation-delay: 0s, -1.73091s;
   }
   
   .mommy span:nth-child(239) {
-    transform: translate3d(-33.77322px, 6.78268px, -247.61536px);
-    color: #f2e9ff;
+    transform: translate3d(3.73458px, 99.87204px, -229.15416px);
+    color: #d1bcff;
   }
   .mommy span:nth-child(239):before {
-    animation-delay: 0s, -1.912s;
+    animation-delay: 0s, -1.73818s;
   }
   
   .mommy span:nth-child(240) {
-    transform: translate3d(0.97149px, -31.31824px, -248.02868px);
-    color: #f4ebff;
+    transform: translate3d(-97.27886px, -2.74312px, -230.28091px);
+    color: #d2beff;
   }
   .mommy span:nth-child(240):before {
-    animation-delay: 0s, -1.92s;
+    animation-delay: 0s, -1.74545s;
   }
   
   .mommy span:nth-child(241) {
-    transform: translate3d(27.26427px, 7.25912px, -248.40283px);
-    color: #f5edff;
+    transform: translate3d(8.86409px, -94.26466px, -231.37762px);
+    color: #d4c0ff;
   }
   .mommy span:nth-child(241):before {
-    animation-delay: 0s, -1.928s;
+    animation-delay: 0s, -1.75273s;
   }
   
   .mommy span:nth-child(242) {
-    transform: translate3d(-11.79531px, 22.14498px, -248.73775px);
-    color: #f6efff;
+    transform: translate3d(90.86552px, 14.60096px, -232.44412px);
+    color: #d5c2ff;
   }
   .mommy span:nth-child(242):before {
-    animation-delay: 0s, -1.936s;
+    animation-delay: 0s, -1.76s;
   }
   
   .mommy span:nth-child(243) {
-    transform: translate3d(-16.53171px, -14.45915px, -249.0334px);
-    color: #f7f1ff;
+    transform: translate3d(-19.92964px, 87.11924px, -233.48029px);
+    color: #d7c4ff;
   }
   .mommy span:nth-child(243):before {
-    animation-delay: 0s, -1.944s;
+    animation-delay: 0s, -1.76727s;
   }
   
   .mommy span:nth-child(244) {
-    transform: translate3d(15.29413px, -10.98738px, -249.28973px);
-    color: #f8f3ff;
+    transform: translate3d(-83.06517px, -24.82935px, -234.48599px);
+    color: #d9c6ff;
   }
   .mommy span:nth-child(244):before {
-    animation-delay: 0s, -1.952s;
+    animation-delay: 0s, -1.77455s;
   }
   
   .mommy span:nth-child(245) {
-    transform: translate3d(6.02272px, 14.49629px, -249.50668px);
-    color: #faf5ff;
+    transform: translate3d(29.28281px, -78.74383px, -235.46109px);
+    color: #dac7ff;
   }
   .mommy span:nth-child(245):before {
-    animation-delay: 0s, -1.96s;
+    animation-delay: 0s, -1.78182s;
   }
   
   .mommy span:nth-child(246) {
-    transform: translate3d(-12.39138px, 2.05779px, -249.68424px);
-    color: #fbf7ff;
+    transform: translate3d(74.1967px, 33.27624px, -236.40546px);
+    color: #dcc9ff;
   }
   .mommy span:nth-child(246):before {
-    animation-delay: 0s, -1.968s;
+    animation-delay: 0s, -1.78909s;
   }
   
   .mommy span:nth-child(247) {
-    transform: translate3d(0.60864px, -9.40287px, -249.82237px);
-    color: #fcf9ff;
+    transform: translate3d(-36.79943px, 69.46585px, -237.31898px);
+    color: #ddcbff;
   }
   .mommy span:nth-child(247):before {
-    animation-delay: 0s, -1.976s;
+    animation-delay: 0s, -1.79636s;
   }
   
   .mommy span:nth-child(248) {
-    transform: translate3d(6.01324px, 1.81963px, -249.92105px);
-    color: #fdfbff;
+    transform: translate3d(-64.59374px, -39.84575px, -238.20152px);
+    color: #dfcdff;
   }
   .mommy span:nth-child(248):before {
-    animation-delay: 0s, -1.984s;
+    animation-delay: 0s, -1.80364s;
   }
   
   .mommy span:nth-child(249) {
-    transform: translate3d(-1.56925px, 2.72149px, -249.98026px);
-    color: #fefdff;
+    transform: translate3d(42.41215px, -59.62282px, -239.05298px);
+    color: #e0cfff;
   }
   .mommy span:nth-child(249):before {
-    animation-delay: 0s, -1.992s;
+    animation-delay: 0s, -1.81091s;
   }
   
   .mommy span:nth-child(250) {
+    transform: translate3d(54.59535px, 44.49916px, -239.87324px);
+    color: #e1d1ff;
+  }
+  .mommy span:nth-child(250):before {
+    animation-delay: 0s, -1.81818s;
+  }
+  
+  .mommy span:nth-child(251) {
+    transform: translate3d(-46.1108px, 49.553px, -240.6622px);
+    color: #e3d2ff;
+  }
+  .mommy span:nth-child(251):before {
+    animation-delay: 0s, -1.82545s;
+  }
+  
+  .mommy span:nth-child(252) {
+    transform: translate3d(-44.53666px, -47.25453px, -241.41975px);
+    color: #e4d4ff;
+  }
+  .mommy span:nth-child(252):before {
+    animation-delay: 0s, -1.83273s;
+  }
+  
+  .mommy span:nth-child(253) {
+    transform: translate3d(47.94116px, -39.58613px, -242.14579px);
+    color: #e6d6ff;
+  }
+  .mommy span:nth-child(253):before {
+    animation-delay: 0s, -1.84s;
+  }
+  
+  .mommy span:nth-child(254) {
+    transform: translate3d(34.73983px, 48.18471px, -242.84023px);
+    color: #e7d8ff;
+  }
+  .mommy span:nth-child(254):before {
+    animation-delay: 0s, -1.84727s;
+  }
+  
+  .mommy span:nth-child(255) {
+    transform: translate3d(-48.00232px, 30.03459px, -243.50298px);
+    color: #e8daff;
+  }
+  .mommy span:nth-child(255):before {
+    animation-delay: 0s, -1.85455s;
+  }
+  
+  .mommy span:nth-child(256) {
+    transform: translate3d(-25.50538px, -47.41403px, -244.13395px);
+    color: #eadcff;
+  }
+  .mommy span:nth-child(256):before {
+    animation-delay: 0s, -1.86182s;
+  }
+  
+  .mommy span:nth-child(257) {
+    transform: translate3d(46.44268px, -21.18508px, -244.73306px);
+    color: #ebdeff;
+  }
+  .mommy span:nth-child(257):before {
+    animation-delay: 0s, -1.86909s;
+  }
+  
+  .mommy span:nth-child(258) {
+    transform: translate3d(17.10431px, 45.11364px, -245.30023px);
+    color: #ecdfff;
+  }
+  .mommy span:nth-child(258):before {
+    animation-delay: 0s, -1.87636s;
+  }
+  
+  .mommy span:nth-child(259) {
+    transform: translate3d(-43.45468px, 13.29115px, -245.83539px);
+    color: #eee1ff;
+  }
+  .mommy span:nth-child(259):before {
+    animation-delay: 0s, -1.88364s;
+  }
+  
+  .mommy span:nth-child(260) {
+    transform: translate3d(-9.77106px, -41.49566px, -246.33846px);
+    color: #efe3ff;
+  }
+  .mommy span:nth-child(260):before {
+    animation-delay: 0s, -1.89091s;
+  }
+  
+  .mommy span:nth-child(261) {
+    transform: translate3d(39.2684px, -6.56665px, -246.80938px);
+    color: #f0e5ff;
+  }
+  .mommy span:nth-child(261):before {
+    animation-delay: 0s, -1.89818s;
+  }
+  
+  .mommy span:nth-child(262) {
+    transform: translate3d(3.69758px, 36.80632px, -247.2481px);
+    color: #f1e7ff;
+  }
+  .mommy span:nth-child(262):before {
+    animation-delay: 0s, -1.90545s;
+  }
+  
+  .mommy span:nth-child(263) {
+    transform: translate3d(-34.14428px, 1.1804px, -247.65455px);
+    color: #f2e9ff;
+  }
+  .mommy span:nth-child(263):before {
+    animation-delay: 0s, -1.91273s;
+  }
+  
+  .mommy span:nth-child(264) {
+    transform: translate3d(0.97149px, -31.31824px, -248.02868px);
+    color: #f4ebff;
+  }
+  .mommy span:nth-child(264):before {
+    animation-delay: 0s, -1.92s;
+  }
+  
+  .mommy span:nth-child(265) {
+    transform: translate3d(28.36505px, 2.74797px, -248.37043px);
+    color: #f5ecff;
+  }
+  .mommy span:nth-child(265):before {
+    animation-delay: 0s, -1.92727s;
+  }
+  
+  .mommy span:nth-child(266) {
+    transform: translate3d(-4.14221px, 25.32212px, -248.67978px);
+    color: #f6eeff;
+  }
+  .mommy span:nth-child(266):before {
+    animation-delay: 0s, -1.93455s;
+  }
+  
+  .mommy span:nth-child(267) {
+    transform: translate3d(-22.22716px, -5.15073px, -248.95667px);
+    color: #f7f0ff;
+  }
+  .mommy span:nth-child(267):before {
+    animation-delay: 0s, -1.94182s;
+  }
+  
+  .mommy span:nth-child(268) {
+    transform: translate3d(5.77338px, -19.11793px, -249.20107px);
+    color: #f8f2ff;
+  }
+  .mommy span:nth-child(268):before {
+    animation-delay: 0s, -1.94909s;
+  }
+  
+  .mommy span:nth-child(269) {
+    transform: translate3d(16.03188px, 6.01335px, -249.41295px);
+    color: #f9f4ff;
+  }
+  .mommy span:nth-child(269):before {
+    animation-delay: 0s, -1.95636s;
+  }
+  
+  .mommy span:nth-child(270) {
+    transform: translate3d(-5.87711px, 13.00598px, -249.59228px);
+    color: #faf6ff;
+  }
+  .mommy span:nth-child(270):before {
+    animation-delay: 0s, -1.96364s;
+  }
+  
+  .mommy span:nth-child(271) {
+    transform: translate3d(-10.07634px, -5.37436px, -249.73903px);
+    color: #fbf8ff;
+  }
+  .mommy span:nth-child(271):before {
+    animation-delay: 0s, -1.97091s;
+  }
+  
+  .mommy span:nth-child(272) {
+    transform: translate3d(4.51795px, -7.27803px, -249.85319px);
+    color: #fcf9ff;
+  }
+  .mommy span:nth-child(272):before {
+    animation-delay: 0s, -1.97818s;
+  }
+  
+  .mommy span:nth-child(273) {
+    transform: translate3d(4.64475px, 3.32376px, -249.93475px);
+    color: #fdfbff;
+  }
+  .mommy span:nth-child(273):before {
+    animation-delay: 0s, -1.98545s;
+  }
+  
+  .mommy span:nth-child(274) {
+    transform: translate3d(-1.81059px, 2.20864px, -249.98369px);
+    color: #fefdff;
+  }
+  .mommy span:nth-child(274):before {
+    animation-delay: 0s, -1.99273s;
+  }
+  
+  .mommy span:nth-child(275) {
     transform: translate3d(0px, 0px, -250px);
     color: white;
   }
-  .mommy span:nth-child(250):before {
+  .mommy span:nth-child(275):before {
     animation-delay: 0s, -2s;
   }
   
