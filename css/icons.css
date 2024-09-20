@@ -30,8 +30,8 @@
 	font-style: normal;
 	font-weight: normal;
 	font-display: auto;
-	src: url("../fonts/la-brands-400.eot");
-	src: url("../fonts/la-brands-400.eot?#iefix") format("embedded-opentype"), url("../fonts/la-brands-400.woff2") format("woff2"), url("../fonts/la-brands-400.woff") format("woff"), url("../fonts/la-brands-400.ttf") format("truetype"), url("../fonts/la-brands-400.svg#lineawesome") format("svg"); 
+	src: url("lineawesome/fonts/la-brands-400.eot");
+	src: url("lineawesome/fonts/la-brands-400.eot?#iefix") format("embedded-opentype"), url("lineawesome/fonts/la-brands-400.woff2") format("woff2"), url("lineawesome/fonts/la-brands-400.woff") format("woff"), url("lineawesome/fonts/la-brands-400.ttf") format("truetype"), url("lineawesome/fonts/la-brands-400.svg#lineawesome") format("svg"); 
 }
 	  
 .lab {
