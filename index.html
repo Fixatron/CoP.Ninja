@@ -254,7 +254,7 @@
                         <i id="settingstoggle" class="toggleSize las la-cog"></i>
                     </div>
                     
-                    <div id="lobbybutton" onmousedown="event.preventDefault(); event.stopPropagation();"  title="Go back to the lobby"  onclick="document.querySelector('form').reset();window.onbeforeunload = null;location.reload();" class="hidden float"  tabindex="2" role="button" aria-pressed="false" onkeyup="enterPressedClick(event,this);" style="cursor: pointer;" alt="Re-Enter Lobby" aria-label="Re-Enter Lobby">
+                    <div id="lobbybutton" onmousedown="event.preventDefault(); event.stopPropagation();"  title="Go back to the lobby"  onclick="document.querySelector('form').reset();window.onbeforeunload = null;location.reload();window.onbeforeunload = function() { return false;  };" class="hidden float"  tabindex="2" role="button" aria-pressed="false" onkeyup="enterPressedClick(event,this);" style="cursor: pointer;" alt="Re-Enter Lobby" aria-label="Re-Enter Lobby">
                         <i id="lobbybtntoggle" class="toggleSize las la-couch"></i>
                     </div>
                     
