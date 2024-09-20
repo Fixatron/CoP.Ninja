@@ -1226,6 +1226,7 @@ async function main() {
 		if (session.mobile===false) {
 			getById("ytchat").classList.remove("hidden");
 		}
+		getById("lobbybutton").classList.remove("hidden");
 	}
 	if (urlParams.has("sstype") || urlParams.has("screensharetype")) {
 			// wha type of screen sharing is used; track replace, iframe, or secondary try

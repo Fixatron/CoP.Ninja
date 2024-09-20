@@ -199,7 +199,7 @@
                         <div id="chatNotification"></div>
                     </div>
                     <div id="ytchat" onmousedown="event.preventDefault(); event.stopPropagation();"  title="Popout Youtube Chat"  class="hidden float"  tabindex="2" role="button" aria-pressed="false" onkeyup="enterPressedClick(event,this);" style="cursor: pointer;" alt="Popout Youtube Chat" aria-label="Popout Youtube Chat">
-                        <a href="javascript:void(0);" onclick="openYTChatInNewWindow()"><i id="settingstoggle" class="toggleSize lab la-youtube"></i></a>
+                        <a href="javascript:void(0);" onclick="openYTChatInNewWindow()"><i id="ytchattoggle" class="toggleSize lab la-youtube"></i></a>
                     </div>
                     <div id="mutespeakerbutton" onmousedown="event.preventDefault(); event.stopPropagation();" alt="Toggle the speaker output." aria-label="Mute Speaker output" title="Mute the Speaker (ALT + A)" onclick="toggleSpeakerMute()"  tabindex="2" role="button" aria-pressed="false" onkeyup="enterPressedClick(event,this);"  class="hidden float" style="cursor: pointer;" >
                         <i id="mutespeakertoggle" class="toggleSize las la-volume-up" style="position: relative; top: 0.5px;"></i>
@@ -252,6 +252,10 @@
                     
                     <div id="settingsbutton" onmousedown="event.preventDefault(); event.stopPropagation();"  title="Your audio and video Settings"  onclick="toggleSettings()" class="hidden float"  tabindex="2" role="button" aria-pressed="false" onkeyup="enterPressedClick(event,this);" style="cursor: pointer;" alt="Toggle Settings Menu" aria-label="Settings menu">
                         <i id="settingstoggle" class="toggleSize las la-cog"></i>
+                    </div>
+                    
+                    <div id="lobbybutton" onmousedown="event.preventDefault(); event.stopPropagation();"  title="Go back to the lobby"  onclick="location.reload()" class="hidden float"  tabindex="2" role="button" aria-pressed="false" onkeyup="enterPressedClick(event,this);" style="cursor: pointer;" alt="Re-Enter Lobby" aria-label="Re-Enter Lobby">
+                        <i id="lobbybtntoggle" class="toggleSize las la-couch"></i>
                     </div>
                     
                     <div id="hangupbutton"  onmousedown="event.preventDefault(); event.stopPropagation();" title="Hangup the Call" aria-label="Hang up" alt="Hangup the Call" onclick="hangup()" class="hidden float"  tabindex="2" role="button" aria-pressed="false" onkeyup="enterPressedClick(event,this);" style="cursor: pointer;" >
