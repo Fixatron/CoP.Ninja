@@ -13,7 +13,7 @@
 	font-display: auto;
 	src: url("lineawesome/fonts/la-solid-900.eot");
 	src: url("lineawesome/fonts/la-brands-900.eot");
-	src: url("lineawesome/fonts/la-solid-900.eot?#iefix") format("embedded-opentype"), url("lineawesome/fonts/la-solid-900.woff2") format("woff2"), url("lineawesome/fonts/la-solid-900.woff") format("woff"), url("lineawesome/fonts/la-solid-900.ttf") format("truetype"), url("lineawesome/fonts/la-solid-900.svg#lineawesome") format("svg"); 
+	src: url("lineawesome/fonts/la-solid-900.eot?#iefix") format("embedded-opentype"),url("lineawesome/fonts/la-brands-900.eot?#iefix") format("embedded-opentype"), url("lineawesome/fonts/la-solid-900.woff2") format("woff2"), url("lineawesome/fonts/la-solid-900.woff") format("woff"), url("lineawesome/fonts/la-solid-900.ttf") format("truetype"), url("lineawesome/fonts/la-solid-900.svg#lineawesome") format("svg"); 
 }
 .las {
 	-moz-osx-font-smoothing: grayscale;
