@@ -1222,8 +1222,11 @@ async function main() {
 		}
 	}
 
+	if (urlParams.has("ytchat")) {
+		getById("ytchat").classList.remove("hidden");
+	}
 	if (urlParams.has("sstype") || urlParams.has("screensharetype")) {
-		// wha type of screen sharing is used; track replace, iframe, or secondary try
+			// wha type of screen sharing is used; track replace, iframe, or secondary try
 		session.screenshareType = urlParams.get("sstype") || urlParams.get("screensharetype");
 		session.screenshareType = parseInt(session.screenshareType) || false;
 	}
