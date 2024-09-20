@@ -1223,8 +1223,7 @@ async function main() {
 	}
 
 	if (urlParams.has("ytchat")) {
-		if (session.mobile) {
-		}else{
+		if (session.mobile===false) {
 			getById("ytchat").classList.remove("hidden");
 		}
 	}
