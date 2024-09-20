@@ -154,12 +154,7 @@
 		<div id="chatModule" class="hidden">
 			<div class="chat-header">
 				<span>Chat</span>
-				<script>
-					function openInNewWindow() {
-						window.open('https://www.youtube.com/live_chat?is_popout=1&v=0lssN8EtmQ4', 'newWindow', 'width=800,height=600');
-					}
-				</script>
-    			<a href="javascript:void(0);" onclick="openInNewWindow()"><i class="lab la-youtube"></i>YT-Chat</a>
+    			<a href="javascript:void(0);" onclick="openYTChatInNewWindow()"><i class="lab la-youtube"></i>YT-Chat</a>
 
 				<span>
 					<a id="popOutChat" onclick="createPopoutChat();"><i class="las la-external-link-alt"></i></a>
@@ -202,6 +197,9 @@
                     <div id="chatbutton" title="Toggle the Chat" alt="Toggle the Chat" aria-label="Text chat" onmousedown="event.preventDefault(); event.stopPropagation();"  onclick="toggleChat()"  tabindex="2" role="button" aria-pressed="false" onkeyup="enterPressedClick(event,this);"  class="hidden float" style="cursor: pointer;" >
                         <i id="chattoggle" class="toggleSize las la-comment-alt"></i>
                         <div id="chatNotification"></div>
+                    </div>
+                    <div id="ytchat" onmousedown="event.preventDefault(); event.stopPropagation();"  title="Popout Youtube Chat"  class="hidden float"  tabindex="2" role="button" aria-pressed="false" onkeyup="enterPressedClick(event,this);" style="cursor: pointer;" alt="Popout Youtube Chat" aria-label="Popout Youtube Chat">
+                        <a href="javascript:void(0);" onclick="openYTChatInNewWindow()"><i id="settingstoggle" class="toggleSize lab la-youtube"></i></a>
                     </div>
                     <div id="mutespeakerbutton" onmousedown="event.preventDefault(); event.stopPropagation();" alt="Toggle the speaker output." aria-label="Mute Speaker output" title="Mute the Speaker (ALT + A)" onclick="toggleSpeakerMute()"  tabindex="2" role="button" aria-pressed="false" onkeyup="enterPressedClick(event,this);"  class="hidden float" style="cursor: pointer;" >
                         <i id="mutespeakertoggle" class="toggleSize las la-volume-up" style="position: relative; top: 0.5px;"></i>
@@ -254,9 +252,6 @@
                     
                     <div id="settingsbutton" onmousedown="event.preventDefault(); event.stopPropagation();"  title="Your audio and video Settings"  onclick="toggleSettings()" class="hidden float"  tabindex="2" role="button" aria-pressed="false" onkeyup="enterPressedClick(event,this);" style="cursor: pointer;" alt="Toggle Settings Menu" aria-label="Settings menu">
                         <i id="settingstoggle" class="toggleSize las la-cog"></i>
-                    </div>
-                    <div id="ytchat" onmousedown="event.preventDefault(); event.stopPropagation();"  title="A new setting"  onclick="toggleSettings()" class="hidden float"  tabindex="2" role="button" aria-pressed="false" onkeyup="enterPressedClick(event,this);" style="cursor: pointer;" alt="Toggle Settings Menu" aria-label="Settings menu">
-                        <i id="settingstoggle" class="toggleSize lab la-youtube"></i>
                     </div>
                     
                     <div id="hangupbutton"  onmousedown="event.preventDefault(); event.stopPropagation();" title="Hangup the Call" aria-label="Hang up" alt="Hangup the Call" onclick="hangup()" class="hidden float"  tabindex="2" role="button" aria-pressed="false" onkeyup="enterPressedClick(event,this);" style="cursor: pointer;" >
@@ -2885,7 +2880,11 @@
 				console.log("didn't work");
 	
 			}
-	
+			//Youtube chat poopout function
+			function openYTChatInNewWindow() {
+				window.open('https://www.youtube.com/live_chat?is_popout=1&v=0lssN8EtmQ4', 'newWindow', 'width=800,height=600');
+			}
+
 	</script>
 	
 	</body>
