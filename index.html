@@ -154,6 +154,13 @@
 		<div id="chatModule" class="hidden">
 			<div class="chat-header">
 				<span>Chat</span>
+				<script>
+					function openInNewWindow() {
+						window.open('https://www.youtube.com/live_chat?is_popout=1&v=RmPJKBPyyp0', 'newWindow', 'width=800,height=600');
+					}
+				</script>
+    			<a href="javascript:void(0);" onclick="openInNewWindow()"><i class="lab la-youtube"></i>xx</a>
+
 				<span>
 					<a id="closeChat"  href="https://www.youtube.com/live_chat?is_popout=1&v=RmPJKBPyyp0" target="_blank"><i class="lab la-youtube"></i></a>
 					<a id="popOutChat" onclick="createPopoutChat();"><i class="las la-external-link-alt"></i></a>
@@ -164,7 +171,12 @@
 			<div id="chatBody" class="resizable-div">
 				<!-- Chat messages will be inserted here -->
 			</div>
-			
+			    <script>
+        function openInNewWindow() {
+            window.open('https://www.example.com', 'newWindow', 'width=800,height=600');
+        }
+    </script>
+
 			<div class="chat-input-area">
 				<input type="text" id="chatInput" placeholder="Enter chat message to send" onkeypress="EnterButtonChat(event)" />
 				<button class="chatBarInputButton" onclick="sendChatMessage()">Send</button>
