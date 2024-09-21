@@ -6672,7 +6672,7 @@ function updateMixerRun(e = false) {
 
 			if (layout) {
 				//////////////////  NOT ANIMATED - CONTAINER ; width/height/z-index/cover///////////////
-				container.style.left = left + "px";
+				container.style.right = left + "px";
 				container.style.top = top + "px";
 				container.style.width = width + "px";
 				container.style.height = height + "px";
