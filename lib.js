@@ -6679,7 +6679,7 @@ function updateMixerRun(e = false) {
 				container.twidth = width;
 				container.theight = height;
 			} else {
-				container.style.left = offsetx + Math.floor((((i % rw) + 0) * w) / rw) + "px";
+				container.style.right = offsetx + Math.floor((((i % rw) + 0) * w) / rw) + "px";
 				container.style.top = offsety + Math.floor(((Math.floor(i / rw) + 0) * h) / rh + hi) + "px";
 				container.twidth = Math.ceil(w / rw);
 				container.theight = Math.ceil(h / rh);
