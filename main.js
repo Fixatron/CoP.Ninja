@@ -422,7 +422,7 @@ async function main() {
 
 	if (urlParams.has("poster")) {
 		// URL or data:base64 image. Becomes local to this viewer only.  This is like &avatar, but slightly different. Just CSS in this case
-		let posterImage = urlParams.get("poster") || "./media/avatar.webp";
+		let posterImage = urlParams.get("poster") || "./media/cop_avatar.png";
 		if (posterImage) {
 			try {
 				posterImage = decodeURIComponent(posterImage);
