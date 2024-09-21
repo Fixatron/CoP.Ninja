@@ -6654,7 +6654,6 @@ function updateMixerRun(e = false) {
 					errorlog(e);
 				}
 			} else {
-				console.log("yoyuo");
 				var left = Math.max(offsetx + Math.floor((((i % rw) + 0) * w) / rw), 0);
 				var top = Math.max(offsety + Math.floor(((Math.floor(i / rw) + 0) * h) / rh + hi), 0);
 				var width = Math.ceil(w / rw);
@@ -6672,14 +6671,23 @@ function updateMixerRun(e = false) {
 
 			if (layout) {
 				//////////////////  NOT ANIMATED - CONTAINER ; width/height/z-index/cover///////////////
-				container.style.right = left + "px";
+				if (urlParams.has("copcol")) {
+					container.style.right = left + "px"; //***** the smaller column of videos goes on the left for hightlights and solos */
+				}else{
+					container.style.left = left + "px"; //***** this is default, column goes on the right */
+				}
+		
 				container.style.top = top + "px";
 				container.style.width = width + "px";
 				container.style.height = height + "px";
 				container.twidth = width;
 				container.theight = height;
 			} else {
-				container.style.right = offsetx + Math.floor((((i % rw) + 0) * w) / rw) + "px";
+				if (urlParams.has("copcol")) {
+					container.style.right = offsetx + Math.floor((((i % rw) + 0) * w) / rw) + "px"; //***** the smaller column of videos goes on the left for hightlights and solos */
+				}else{
+					container.style.left = offsetx + Math.floor((((i % rw) + 0) * w) / rw) + "px"; //***** this is default, column goes on the right */
+				}
 				container.style.top = offsety + Math.floor(((Math.floor(i / rw) + 0) * h) / rh + hi) + "px";
 				container.twidth = Math.ceil(w / rw);
 				container.theight = Math.ceil(h / rh);
