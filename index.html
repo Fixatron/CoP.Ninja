@@ -2886,7 +2886,8 @@
 			}
 			//Youtube chat poopout function
 			function openYTChatInNewWindow() {
-				window.open('https://www.youtube.com/live_chat?is_popout=1&v=0lssN8EtmQ4', 'newWindow', 'width=800,height=600');
+				ytPopUpID = urlParams.get("ytchat");
+				window.open('https://www.youtube.com/live_chat?is_popout=1&v='+ytPopUpID, 'newWindow', 'width=800,height=600');
 			}
 
 	</script>
