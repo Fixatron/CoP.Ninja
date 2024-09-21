@@ -6654,6 +6654,7 @@ function updateMixerRun(e = false) {
 					errorlog(e);
 				}
 			} else {
+				console.log("yoyuo");
 				var left = Math.max(offsetx + Math.floor((((i % rw) + 0) * w) / rw), 0);
 				var top = Math.max(offsety + Math.floor(((Math.floor(i / rw) + 0) * h) / rh + hi), 0);
 				var width = Math.ceil(w / rw);
